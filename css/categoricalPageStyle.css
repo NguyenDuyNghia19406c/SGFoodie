@@ -1,0 +1,125 @@
+@font-face {
+    font-family: NotoSans;
+    src: url(../data/font/Noto_Sans/NotoSans-Regular.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: NotoSans;
+}
+
+img.banner {
+    width: 100%;
+    height: 550px;
+}
+
+.heading {
+    font-weight: bold;
+    text-align: center;
+}
+
+.btnCategory {
+    width: 75px;
+    height: 30px;
+    border-radius: 5px;
+    font-weight: bold;
+    margin: 10px 5px;
+}
+
+.btnSelectedCategory {
+    color: white;
+    background-color: #D50805;
+    border: none;
+}
+
+.btnNotSelectedCategory {
+    color: #A7A9BF;
+    background-color: white;
+    border: 1px solid #C4C4C4;
+}
+
+.restaurantRow {
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: auto;
+    background-color: white;
+    width: 76%;
+    filter: drop-shadow(0px 1px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 5px;
+    margin: 10px auto;
+}
+
+.restaurantRow:hover {
+    filter: drop-shadow(1px 1px 4px rgba(0.5, 0.5, 0.5, 0.8));
+}
+
+.restaurantImage {
+    width: 300px;
+    height: 150px;
+    border-radius: 5px;
+    vertical-align: middle;
+    padding: 5px;
+}
+
+.restaurantInfo {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    font-size: 14px;
+    width: 72%;
+}
+
+.restaurantName {
+    font-weight: bold;
+    font-size: 20.8px;
+    text-decoration: none;
+    color: black;
+}
+
+.restaurantName:hover {
+    color: #D50805;
+}
+
+.restaurantType,
+.restaurantLocation {
+    margin-top: 5px;
+}
+
+.restaurantShortDescription {
+    color: #9A9A9A;
+    font-style: italic;
+    margin-top: 5px;
+}
+
+.btnCTA {
+    width: 120px;
+    height: 30px;
+    border-radius: 5px;
+    font-weight: bold;
+    margin: 15px 5px 10px 0px;
+    cursor: pointer;
+}
+
+.btnMenu {
+    border: 1px solid #676767;
+    background-color: white;
+}
+
+.btnBookTable {
+    background-color: #D50805;
+    border: none;
+    color: white;
+}
+
+@media screen and (max-width: 639px) {
+    .restaurantRow {
+        width: 90%;
+        flex-direction: column;
+    }
+    img.banner {
+        height: 230px;
+    }
+}
