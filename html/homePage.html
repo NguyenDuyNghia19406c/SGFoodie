@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/bodyStyles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <script src="../js/scriptHomepage.js" defer></script>
+    <script src="https://www.w3schools.com/lib/w3.js"></script>
+    <script src="../js/angular.min.js"></script>
+    <script>
+        let app = angular.module("angularApp", []);
+        app.controller("RestaurantController", function($scope, $http) {
+            $http({
+                method: "GET",
+                url: "../data/restaurants.json"
+            }).then(
+                function success(response) {
+                    $scope.restaurants = response.data;
+                },
+                function error(response) {
+                    $scope.error = response.statusText;
+                });
+        })
+    </script>
+
+    <script>
+        function get_value(...params) {
+            var adults = document.getElementById(params[0]);
+            var childrens = document.getElementById(params[1]);
+
+            document.getElementById(params[2]).value = adults[adults.selectedIndex].value + ' người lớn ' + childrens[childrens.selectedIndex].value + ' trẻ em';
+            // if (params[0] == 'adults') {
+            //     document.getElementById(params[2]).value = adults[adults.selectedIndex].value + ' lớn ' + childrens[childrens.selectedIndex].value + ' nhỏ';
+            // } else if (params[0] == 'children') {
+            //     document.getElementById(params[2]).value = adults[adults.selectedIndex].value + ' lớn ' + childrens[childrens.selectedIndex].value + ' nhỏ';
+            // }
+
+        }
+
+        function toggle_visibility(id) {
+            var e = document.getElementById(id);
+            if (e.style.display == 'block')
+                e.style.display = 'none';
+            else
+                e.style.display = 'block';
+        }
+    </script>
+</head>
+
+<body ng-app="angularApp" ng-controller="RestaurantController">
+    <div w3-include-html="header.html"></div>
+    <div w3-include-html="carousel.html"></div>
+    <div w3-include-html="search-bar.html"></div>
+    <div class="body">
+        <div class="banner"></div>
+        <div class="search-bar"></div>
+        <div class="section">
+        </div>
+    </div>
+    <footer>
+    </footer>
+    <a href="#" class="back-to-top">
+        <i class="material-icons">keyboard_arrow_up</i>
+    </a>
+    <div w3-include-html="footer.html"></div>
+    <script>
+        w3.includeHTML()
+    </script>
+
+</body>
+
+</html>

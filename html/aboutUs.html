@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About us</title>
+    <link rel="stylesheet" href="../css/aboutUs.css">
+    <script src="../js/angular.min.js"></script>
+    <script>
+        let app = angular.module("angularApp", []);
+        app.controller("AboutUsController", function($scope, $http) {
+            $http({
+                method: "GET",
+                url: "../data/aboutUs.json",
+            }).then(
+                function success(response) {
+                    $scope.aboutus = response.data;
+
+                },
+                function error(response) {
+                    $scope.error = response.statusText;
+                }
+            )
+        })
+    </script>
+</head>
+
+<body ng-app="angularApp" ng-controller="AboutUsController">
+    <div class="container">
+        <div ng-repeat="section in aboutus">
+            <h2>{{section.title}}</h2>
+            <p>{{section.description}}</p>
+        </div>
+
+    </div>
+</body>
+
+</html>

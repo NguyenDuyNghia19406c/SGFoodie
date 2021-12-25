@@ -1,0 +1,249 @@
+@font-face {
+    font-family: NotoSans;
+    src: url(../data/font/Noto_Sans/NotoSans-Regular.ttf);
+}
+
+* {
+    font-family: NotoSans;
+}
+
+body {
+    background: #f2f2f2;
+}
+
+#navigationBar {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background: white;
+    position: fixed;
+    z-index: 2;
+    width: 100%;
+    height: 50px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#navigationBar:after {
+    content: '';
+    clear: both;
+    display: table;
+}
+
+#navigationBar .logo {
+    float: left;
+    width: 50px;
+    margin-left: 40px;
+}
+
+#menu {
+    list-style: none;
+    position: relative;
+    margin-top: 0px;
+}
+
+#navigationBar ul li {
+    display: inline-block;
+    text-align: left;
+}
+
+#navigationBar ul li a {
+    color: black;
+    line-height: 50px;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 0px 20px;
+}
+
+#navigationBarItemHover:hover {
+    border-bottom: 3px solid #D50805;
+}
+
+#btnLoginHover:hover {
+    border: none;
+}
+
+#navigationBar ul ul {
+    background-color: white;
+    position: absolute;
+    visibility: hidden;
+    transition: top .3s;
+    margin: 0;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#navigationBar ul li ul li a:hover {
+    color: #D50805;
+    border: none;
+}
+
+#navigationBar ul li:hover>ul {
+    top: 50px;
+    opacity: 1;
+    visibility: visible;
+}
+
+#navigationBar ul ul li {
+    position: relative;
+    margin: 0px;
+    width: 200px;
+    display: list-item;
+}
+
+#navigationBar ul ul li a {
+    line-height: 30px;
+}
+
+.show,
+.icon,
+input[type=checkbox] {
+    display: none;
+}
+
+.fa-plus {
+    font-size: 15px;
+    margin-left: 40px;
+}
+
+.buttonLogin {
+    width: 110px;
+    height: 40px;
+    background-color: #D50805;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 18px;
+    border: none;
+}
+
+.userAvatar {
+    position: relative;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+
+.avatarBox {
+    border-radius: 5px;
+    box-shadow: none;
+    border: 1px solid #A8A8A8;
+}
+
+@media screen and (max-width:1207px) {
+    #navigationBar ul li a {
+        color: black;
+        line-height: 50px;
+        text-decoration: none;
+        font-size: 14px;
+        padding: 8px 5px;
+    }
+    .buttonLogin {
+        width: 90px;
+        height: 30px;
+        background-color: #D50805;
+        color: white;
+        text-align: center;
+        border-radius: 10px;
+        border: none;
+        font-size: 14px;
+    }
+    #navigationBar .logo {
+        float: left;
+        width: 40px;
+        margin-left: 40px;
+        margin-top: 5px;
+    }
+}
+
+@media screen and (max-width:792px) {
+    #navigationBar ul {
+        margin: 0;
+        float: left;
+        background-color: white;
+        width: 100%;
+    }
+    #navigationBar .logo {
+        margin-left: 10px;
+        width: 40px;
+        height: 40px;
+        margin-top: 5px;
+    }
+    #navigationBar ul li a {
+        color: black;
+        line-height: 20px;
+        font-size: 12px;
+        padding-left: 15px;
+    }
+    #navigationBar ul li a:hover,
+    .show:hover {
+        color: #D50805;
+        border: none;
+    }
+    .show+a,
+    ul {
+        display: none;
+    }
+    #navigationBar ul li,
+    #navigationBar ul ul li {
+        display: block;
+        width: 100%;
+        margin-bottom: 5px;
+    }
+    .show {
+        display: block;
+        color: black;
+        font-size: 12px;
+        padding: 0 15px;
+        line-height: 20px;
+        cursor: pointer;
+        opacity: 1;
+        visibility: visible;
+        margin: 0;
+    }
+    .icon {
+        display: block;
+        color: #D50805;
+        position: absolute;
+        right: 15px;
+        font-size: 25px;
+        margin-top: 8px;
+    }
+    #navigationBar ul ul {
+        top: 70px;
+        float: none;
+        position: static;
+        display: none;
+        opacity: 1;
+        visibility: visible;
+        box-shadow: none;
+    }
+    #navigationBar ul ul li a {
+        line-height: 10px;
+    }
+    #navigationBar ul ul a {
+        padding: 0px;
+    }
+    [id^=btn]:checked+ul {
+        display: block;
+    }
+    #navigationBar ul ul li {
+        border-bottom: 0px;
+    }
+    span.cancel:before {
+        content: '\f00d';
+    }
+    .buttonLogin {
+        width: 80px;
+        height: 30px;
+        font-size: 12px;
+    }
+    .avatarBox {
+        display: inline-block;
+        border: none;
+    }
+    .userAvatar {
+        display: none;
+    }
+    .traditionalFoodList {
+        margin-left: 40px;
+    }
+}
