@@ -6,9 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Phân loại</title>
-    <link rel="stylesheet" href="../css/categoricalPageStyle.css">
-    <link rel="shortcut icon" type="image/jpg" href="../images/SGFoodie_LOGO1.png" />
-    <script src="../js/angular.min.js"></script>
+    <link rel="stylesheet" href="./css/categoricalPageStyle.css">
+    <link rel="shortcut icon" type="image/jpg" href="./images/SGFoodie_LOGO1.png" />
+    <script src="./js/angular.min.js"></script>
     <script src="https://www.w3schools.com/lib/w3.js"></script>
     <script>
         let urlparams = new URLSearchParams(location.search);
@@ -19,20 +19,20 @@
         app.controller("categoryController", function($scope, $http) {
             $http({
                 method: "GET",
-                url: "../data/restaurants.json"
+                url: "./data/restaurants.json"
             }).then(
                 function success(response) {
                     $scope.resList = response.data.filter(value => value.category.includes(category));
                     let banner = {
-                        "Nổi bật": "../images/Categorical/noiBat.png",
-                        "Ưu đãi": "../images/Categorical/uuDai.png",
-                        "Văn hóa ẩm thực": "../images/Categorical/vanHoaAmThuc.png",
-                        "Tinh hoa Việt Nam": "../images/Categorical/tinhHoa.png",
-                        "Điểm nhấn quận mình": "../images/Categorical/diemNhan.png",
-                        "Kiểu Nhật": "../images/Categorical/kieuNhat.png",
-                        "Kiểu Trung": "../images/Categorical/kieuTrung.png",
-                        "Kiểu Âu": "../images/Categorical/kieuAu.png",
-                        "Kiểu Hàn": "../images/Categorical/kieuHan.png",
+                        "Nổi bật": "./images/Categorical/noiBat.png",
+                        "Ưu đãi": "./images/Categorical/uuDai.png",
+                        "Văn hóa ẩm thực": "./images/Categorical/vanHoaAmThuc.png",
+                        "Tinh hoa Việt Nam": "./images/Categorical/tinhHoa.png",
+                        "Điểm nhấn quận mình": "./images/Categorical/diemNhan.png",
+                        "Kiểu Nhật": "./images/Categorical/kieuNhat.png",
+                        "Kiểu Trung": "./images/Categorical/kieuTrung.png",
+                        "Kiểu Âu": "./images/Categorical/kieuAu.png",
+                        "Kiểu Hàn": "./images/Categorical/kieuHan.png",
                     };
                     $scope.bannerSrc = banner[category];
                 },

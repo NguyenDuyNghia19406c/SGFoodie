@@ -7,10 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Step 2</title>
     <script src="https://www.w3schools.com/lib/w3.js"></script>
-    <link rel="stylesheet" href="../css/bookingPageStyle.css">
-    <link rel="stylesheet" href="../css/bookingHeaderStyle.css">
-    <link rel="shortcut icon" type="image/jpg" href="../images/SGFoodie_LOGO1.png" />
-    <script src="../js/angular.min.js"></script>
+    <link rel="stylesheet" href="./css/bookingPageStyle.css">
+    <link rel="stylesheet" href="./css/bookingHeaderStyle.css">
+    <link rel="shortcut icon" type="image/jpg" href="./images/SGFoodie_LOGO1.png" />
+    <script src="./js/angular.min.js"></script>
     <script>
         function getUrlParams2() {
             const params = new URLSearchParams(window.location.search);
@@ -30,7 +30,7 @@
         app.controller("RestaurantController", function($scope, $http) {
             $http({
                 method: "GET",
-                url: "../data/restaurants.json"
+                url: "./data/restaurants.json"
             }).then(
                 function success(response) {
                     $scope.selectedRes = response.data.find(value => value.id == id);
@@ -66,23 +66,23 @@
             <option value="Mr">Ông</option>
             <option value="Mrs">Bà</option>
         </select>
-                    <img class="icon" src="../data/icon/user.svg" alt="">
+                    <img class="icon" src="./data/icon/user.svg" alt="">
                 </div>
                 <div>
                     <input type="text" placeholder="Họ và tên" name="fullname" class="confirm-infor confirm-style" required>
-                    <img class="infor-icon" src="../data/icon/user.svg" alt="">
+                    <img class="infor-icon" src="./data/icon/user.svg" alt="">
                 </div>
                 <div>
                     <input type="text" placeholder="Email" name="email" class="confirm-infor confirm-style" required>
-                    <img class="infor-icon" src="../data/icon/email.svg" alt="">
+                    <img class="infor-icon" src="./data/icon/email.svg" alt="">
                 </div>
                 <div>
                     <input type="text" placeholder="Số điện thoại" class="confirm-infor confirm-style" required>
-                    <img class="infor-icon" src="../data/icon/phone.svg" alt="">
+                    <img class="infor-icon" src="./data/icon/phone.svg" alt="">
                 </div>
                 <div>
                     <textarea cols="30" rows="2" class="confirm-infor confirm-style-note" placeholder="Ghi chú"></textarea>
-                    <img class="infor-icon-note" src="../data/icon/note.svg" alt="">
+                    <img class="infor-icon-note" src="./data/icon/note.svg" alt="">
                 </div>
                 <!-- <div class="button-flex">
                     <button class="confirm-button"><a href="bookingPage1.html" class="button-style">Trở lại</a></button>

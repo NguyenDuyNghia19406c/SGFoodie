@@ -6,12 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Restaurant</title>
-    <link rel="stylesheet" href="../css/RestaurantStyle.css">
+    <link rel="stylesheet" href="./css/RestaurantStyle.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel='stylesheet prefetch' href='https://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css'>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="shortcut icon" type="image/jpg" href="../images/SGFoodie_LOGO1.png" />
-    <script src="../js/angular.min.js"></script>
+    <link rel="shortcut icon" type="image/jpg" href="./images/SGFoodie_LOGO1.png" />
+    <script src="./js/angular.min.js"></script>
     <script src="https://www.w3schools.com/lib/w3.js"></script>
     <script>
         function get_value(...params) {
@@ -41,7 +41,7 @@
         app.controller("DetailController", function($scope, $http, $sce) {
             $http({
                 method: "GET",
-                url: "../data/restaurants.json"
+                url: "./data/restaurants.json"
             }).then(
                 function success(response) {
                     $scope.selectedRes = response.data.find(value => value.id == id);
@@ -80,7 +80,7 @@
                 <div class="booking-check">
                     <div class="search-item">
                         <input type="text" name="" id="number-of-cus" placeholder="2 người lớn" class="box-checking" readonly>
-                        <img class="icon" src="../data/icon/user.svg" alt="" onclick="toggle_visibility('dropdown')">
+                        <img class="icon" src="./data/icon/user.svg" alt="" onclick="toggle_visibility('dropdown')">
                         <div id="dropdown" class="cus-dropdown cus-flex">
                             <div class="input-group">
                                 <label for="adults" class="maxwidth-option">Người lớn</label>
@@ -167,7 +167,7 @@
                     <p class="introduce-title">BÌNH LUẬN</p>
                     <div class="feedback-container" ng-repeat="user in cmtList">
                         <div class="user-info">
-                            <p><img src="../data/icon/chimmy.png" alt="User Image" class="user-image"></p>
+                            <p><img src="./data/icon/chimmy.png" alt="User Image" class="user-image"></p>
                             <p class="user-name">{{user.user_id}}</p>
                         </div>
                         <div>

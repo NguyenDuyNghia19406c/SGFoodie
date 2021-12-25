@@ -7,10 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Step 1</title>
     <script src="https://www.w3schools.com/lib/w3.js"></script>
-    <link rel="stylesheet" href="../css/bookingPageStyle.css">
-    <link rel="stylesheet" href="../css/bookingHeaderStyle.css">
-    <link rel="shortcut icon" type="image/jpg" href="../images/SGFoodie_LOGO1.png" />
-    <script src="../js/angular.min.js"></script>
+    <link rel="stylesheet" href="./css/bookingPageStyle.css">
+    <link rel="stylesheet" href="./css/bookingHeaderStyle.css">
+    <link rel="shortcut icon" type="image/jpg" href="./images/SGFoodie_LOGO1.png" />
+    <script src="./js/angular.min.js"></script>
     <script>
         function get_value_adult(...params) {
             var adults = document.getElementById(params[0]);
@@ -43,7 +43,7 @@
         app.controller("RestaurantController", function($scope, $http) {
             $http({
                 method: "GET",
-                url: "../data/restaurants.json"
+                url: "./data/restaurants.json"
             }).then(
                 function success(response) {
                     $scope.selectedRes = response.data.find(value => value.id == id);
@@ -74,7 +74,7 @@
                 <div class="booking-check">
                     <div class="search-item">
                         <input type="text" id="number-of-adult" placeholder="0 người lớn" class="box-checking" readonly required>
-                        <img class="icon-page1" src="../data/icon/user.svg" alt="" onclick="toggle_visibility('dropdown1')">
+                        <img class="icon-page1" src="./data/icon/user.svg" alt="" onclick="toggle_visibility('dropdown1')">
                         <div id="dropdown1" class="cus-dropdown">
                             <div class="input-group">
                                 <label for="adults" class="cus-margin">Người lớn</label>
@@ -91,7 +91,7 @@
                     </div>
                     <div class="search-item">
                         <input type="text" id="number-of-child" placeholder="0 trẻ em" class="box-checking" readonly required>
-                        <img class="icon-page1" src="../data/icon/user.svg" alt="" onclick="toggle_visibility('dropdown2')">
+                        <img class="icon-page1" src="./data/icon/user.svg" alt="" onclick="toggle_visibility('dropdown2')">
                         <div id="dropdown2" class="cus-dropdown">
                             <div class="input-group">
                                 <label for="children" class="cus-margin">Trẻ em</label>

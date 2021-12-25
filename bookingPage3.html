@@ -7,10 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Step 3</title>
     <script src="https://www.w3schools.com/lib/w3.js"></script>
-    <link rel="stylesheet" href="../css/bookingPageStyle.css">
-    <link rel="stylesheet" href="../css/bookingHeaderStyle.css">
-    <link rel="shortcut icon" type="image/jpg" href="../images/SGFoodie_LOGO1.png" />
-    <script src="../js/angular.min.js"></script>
+    <link rel="stylesheet" href="./css/bookingPageStyle.css">
+    <link rel="stylesheet" href="./css/bookingHeaderStyle.css">
+    <link rel="shortcut icon" type="image/jpg" href="./images/SGFoodie_LOGO1.png" />
+    <script src="./js/angular.min.js"></script>
     <script>
         function getUrlParams1() {
             const param = new URLSearchParams(window.location.search);
@@ -30,7 +30,7 @@
         app.controller("RestaurantController", function($scope, $http) {
             $http({
                 method: "GET",
-                url: "../data/restaurants.json"
+                url: "./data/restaurants.json"
             }).then(
                 function success(response) {
                     $scope.selectedRes = response.data.find(value => value.id == id);
@@ -63,15 +63,15 @@
             <form action="homePage.html">
                 <h4 class="confirm-title">Thông tin đặt bàn</h4>
                 <div class="confirm-style">
-                    <img src="../data/icon/user.svg" alt="" class="normal-icon">
+                    <img src="./data/icon/user.svg" alt="" class="normal-icon">
                     <span id="username" class="confirm-content"></span>
                 </div>
                 <div class="confirm-style">
-                    <img src="../data/icon/calendar.png" alt="" class="normal-icon">
+                    <img src="./data/icon/calendar.png" alt="" class="normal-icon">
                     <span id="datetime" class="confirm-content"></span>
                 </div>
                 <div class="confirm-style">
-                    <img src="../data/icon/group.svg" alt="" class="normal-icon" id="group-icon">
+                    <img src="./data/icon/group.svg" alt="" class="normal-icon" id="group-icon">
                     <span id="person" class="confirm-content"></span>
                 </div>
                 <div class="button-flex">

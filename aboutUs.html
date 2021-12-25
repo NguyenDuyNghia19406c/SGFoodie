@@ -5,16 +5,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About us</title>
-    <link rel="stylesheet" href="../css/aboutUs.css">
-    <link rel="shortcut icon" type="image/jpg" href="../images/SGFoodie_LOGO1.png" />
+    <link rel="stylesheet" href="./css/aboutUs.css">
+    <link rel="shortcut icon" type="image/jpg" href="./images/SGFoodie_LOGO1.png" />
     <script src="https://www.w3schools.com/lib/w3.js"></script>
-    <script src="../js/angular.min.js"></script>
+    <script src="./js/angular.min.js"></script>
     <script>
         let app = angular.module("angularApp", []);
         app.controller("AboutUsController", function($scope, $http) {
             $http({
                 method: "GET",
-                url: "../data/aboutUs.json",
+                url: "./data/aboutUs.json",
             }).then(
                 function success(response) {
                     $scope.aboutus = response.data;
