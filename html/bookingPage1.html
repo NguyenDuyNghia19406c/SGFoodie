@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Step 1</title>
+    <script src="https://www.w3schools.com/lib/w3.js"></script>
+    <link rel="stylesheet" href="../css/bookingPageStyle.css">
+    <script>
+        function get_value_adult(...params) {
+            var adults = document.getElementById(params[0]);
+            document.getElementById(params[1]).value = adults[adults.selectedIndex].value + ' người lớn';
+
+        }
+
+        function get_value_children(...params) {
+            var childrens = document.getElementById(params[0]);
+            document.getElementById(params[1]).value = childrens[childrens.selectedIndex].value + ' trẻ em';
+
+        }
+
+        function toggle_visibility(id) {
+            var e = document.getElementById(id);
+            if (e.style.display == 'block')
+                e.style.display = 'none';
+            else
+                e.style.display = 'block';
+        }
+    </script>
+</head>
+
+<body>
+    <div class="booking-container booking-container-flex">
+        <div w3-include-html="bookingHeader.html"></div>
+        <div w3-include-html="bookingProgressBarStep1.html"></div>
+        <script>
+            w3.includeHTML()
+        </script>
+        <div class="form-container">
+            <form action="bookingPage2.html" method="get">
+                <div class="booking-check">
+                    <div class="search-item">
+                        <input type="text" id="number-of-adult" placeholder="2 người lớn" class="box-checking" readonly required>
+                        <img class="icon-page1" src="../data/icon/user.svg" alt="" onclick="toggle_visibility('dropdown1')">
+                        <div id="dropdown1" class="cus-dropdown">
+                            <div class="input-group">
+                                <label for="adults" class="cus-margin">Người lớn</label>
+                                <select id="adults" onchange="get_value_adult('adults', 'number-of-adult')" class="cus-option" name="adult">
+                        <option value="0">0</option>
+                          <option value="1">1</option>
+                          <option value="2">2</option>
+                          <option value="3">3</option>
+                          <option value="4">4</option>
+                          <option value="5">5</option>
+                    </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="search-item">
+                        <input type="text" id="number-of-child" placeholder="2 trẻ em" class="box-checking" readonly required>
+                        <img class="icon-page1" src="../data/icon/user.svg" alt="" onclick="toggle_visibility('dropdown2')">
+                        <div id="dropdown2" class="cus-dropdown">
+                            <div class="input-group">
+                                <label for="children" class="cus-margin">Trẻ em</label>
+                                <select id="children" onchange="get_value_children('children', 'number-of-child')" class="cus-option" name="child">
+                        <option value="0">0</option>
+                          <option value="1">1</option>
+                          <option value="2">2</option>
+                          <option value="3">3</option>
+                          <option value="4">4</option>
+                          <option value="5">5</option>
+                    </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="booking-check">
+                    <input type="date" name="booking-date" class="box-checking date-adjust" required>
+                    <input type="time" name="booking-time" class="box-checking time-adjust" required>
+                </div>
+                <div class="booking-required">
+                    <p class="booking-fontsize">Khách hàng đến nhà hàng vui lòng khai báo mã Qr code, đo thân nhiệt và xịt khử khuẩn. Toàn bộ nhân viên được tiêm phòng vacxin đầy đủ, luôn đeo khẩu trang, và thường xuyên sát khuẩn trước và sau khi phục vụ khách hàng. Nhà hàng sẽ
+                        giữ bàn của khách hàng trong tối đa 15 phút, nếu khách hàng thể đến được vui lòng thông báo trước cho nhà hàng qua điện thoại hoặc email.</p>
+                </div>
+                <input type="checkbox" class="booking-checkbox" required><span class="booking-fontsize">Tôi đã đọc và đồng ý với các điều khoản và điều kiện trên.</span>
+                <br>
+                <input type="submit" value="Tiếp theo" class="booking-submit-button">
+            </form>
+
+        </div>
+        <br>
+        <p class="booking-fontsize">© 2021 - Bản quyền của Công Ty Cổ Phần SGFoodie - SGFoodie.vn</p>
+    </div>
+</body>
+
+</html>
