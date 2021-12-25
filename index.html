@@ -34,8 +34,10 @@
 </head>
 
 <body ng-app="angularApp" ng-controller="RestaurantController">
-    <audio autoplay preload="auto" src="./data/background-song.mp3" type="audio/ogg"></audio>
-    <div w3-include-html="./html/header.html"></div>
+    <audio autoplay preload="auto">
+        <source  src="./data/background-song.mp3" type="audio/ogg">
+    </audio>
+    <div w3-include-html="header.html"></div>
     <div class="carousel-container">
         <a class="slick-arrow slick-prev">
             <i class="fas fa-angle-left"></i>
