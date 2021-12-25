@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/RestaurantStyle.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel='stylesheet prefetch' href='https://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script>
+        function get_value(...params) {
+            var adults = document.getElementById(params[0]);
+            var childrens = document.getElementById(params[1]);
+
+            document.getElementById(params[2]).value = adults[adults.selectedIndex].value + ' người lớn, ' + childrens[childrens.selectedIndex].value + ' trẻ em';
+
+        }
+
+        function toggle_visibility(id) {
+            var e = document.getElementById(id);
+            if (e.style.display == 'block')
+                e.style.display = 'none';
+            else
+                e.style.display = 'block';
+        }
+    </script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="search-container">
+            <div class="searchbar-box">
+                <i class="material-icons" style="font-size: 50px;">search</i>
+                <input type="text" class="search-box" placeholder="Tìm địa điểm nhà hàng, món ăn...">
+            </div>
+        </div>
+        <div class="mainStyle-container">
+            <div class="infor-container">
+                <div class="restaurant-information">
+                    <img src="../data/images/HoiAnSense2.jpg" alt="HoiAnSense2" class="restaurant-image">
+                    <p class="restaurant-name">Hội An Sense</p>
+                </div>
+                <div class="booking-check">
+                    <div class="search-item">
+                        <input type="text" name="" id="number-of-cus" placeholder="2 người lớn" class="box-checking" readonly>
+                        <img class="icon" src="../data/icon/user.svg" alt="" onclick="toggle_visibility('dropdown')">
+                        <div id="dropdown" class="cus-dropdown cus-flex">
+                            <div class="input-group">
+                                <label for="adults">Người lớn</label>
+                                <select id="adults" onchange="get_value('adults', 'childrens', 'number-of-cus')" class="cus-option">
+                                <option value="0">0</option>
+                                  <option value="1">1</option>
+                                  <option value="2">2</option>
+                                  <option value="3">3</option>
+                                  <option value="4">4</option>
+                                  <option value="5">5</option>
+                            </select>
+                            </div>
+                            <div class="input-group">
+                                <label for="childrens">Trẻ em</label>
+                                <select id="childrens" onchange="get_value('adults', 'childrens', 'number-of-cus')" class="cus-option">
+                                <option value="0">0</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                            </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <input type="date" class="box-checking date-adjust">
+                    </div>
+                    <div>
+                        <input type="time" class="box-checking time-adjust">
+                    </div>
+                    <div>
+                        <button class="booknow-button">Đặt ngay</button>
+                    </div>
+                </div>
+                <div class="detailed-container">
+                    <div class="detailed-column">
+                        <div class="detailed-row">
+                            <p class="detailed-title">Món ăn</p>
+                            <p class="detailed-content">Kiểu Việt</p>
+                        </div>
+                        <div class="detailed-row">
+                            <p class="detailed-title">Thực đơn</p>
+                            <a href="https://hoiansense.com.vn/wp-content/uploads/2020/01/HAS_SET_MENU_25102019.pdf" target="_blank"><button class="menu-button">Xem thực đơn</button></a>
+                        </div>
+                        <div class="detailed-row">
+                            <p class="detailed-title">Giờ mở cửa</p>
+                            <p class="detailed-content">Thứ 2 - Chủ Nhật: 5:00 pm - 11:00 pm</p>
+                        </div>
+                        <div class="detailed-row">
+                            <p class="detailed-title">Khoảng giá</p>
+                            <p class="detailed-content">227.273 ₫ - 454.545 ₫</p>
+                        </div>
+                        <div class="detailed-row">
+                            <p class="detailed-title">Chế độ ăn đặc biệt</p>
+                            <p class="detailed-content">Phù hợp với người ăn chay, Tùy chọn ăn chay, Tùy chọn đồ ăn không có gluten</p>
+                        </div>
+                    </div>
+                    <div class="detailed-column">
+                        <div class="detailed-row">
+                            <p class="detailed-title">Địa chỉ</p>
+                            <p class="detailed-content">Tầng thượng, 12 Phan Kế Bính, P. Đa Kao, Quận 1</p>
+                        </div>
+                        <div id="map" class="detailed-map">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.2702022732906!2d106.69669891428715!3d10.790605261883718!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752944b5042b73%3A0x3ac04f3a201c4c1c!2sH%E1%BB%99i%20An%20Sense%20Restaurant!5e0!3m2!1svi!2s!4v1638434654623!5m2!1svi!2s"
+                                width="380" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                        </div>
+                    </div>
+                </div>
+                <hr class="line">
+                <div class="introduce-restaurent">
+                    <p class="introduce-title">GIỚI THIỆU</p>
+                    <p>Trong suốt hơn 20 năm qua, nhà hàng Hội An luôn có được sự công nhận từ du khách quốc tế về giá trị ẩm thực tuyệt hảo cùng nội thất mang đậm dấu ấn văn hóa Việt. Đi vào hoạt động từ năm 1998 cho đến nay, nhà hàng Hội An tọa lạc tại
+                        11 Lê Thánh Tôn, quận 1 nay đã chính thức đổi tên thành nhà hàng Hội An Sense mang các dấu ấn riêng biệt mà không nơi nào có được, Nhà hàng Hội An (nay là Hội An Sense) đã luôn không ngừng cố gắng và nỗ lực để đạt được nhiều thành
+                        tựu và thật sự là một viên ngọc quý giữa lòng Sài Gòn náo nhiệt.</p>
+
+                </div>
+                <div class="introduce-restaurent">
+                    <p class="introduce-title">MÓN ĂN ĐƯỢC YÊU THÍCH</p>
+                    <p>Tôm càng hấp tỏi, Cơm hấp lá sen, Cua lột chiên xốt tắc muối, Bò xào Hội An, Bánh quai vạc nhân tôm và sò điệp, Cơm hến Vĩ Dạ, Gỏi mít trộn hến cùng thịt bằm xốt bánh tráng.</p>
+                </div>
+                <hr class="line">
+                <div class="introduce-restaurent">
+                    <p class="introduce-title">BÌNH LUẬN</p>
+                    <div class="feedback-container">
+                        <div>
+                            <p><img src="../data/icon/chimmy.png" alt="User Image" class="user-image"></p>
+                            <p class="user-name">Ẩn danh</p>
+                        </div>
+                        <div>
+                            <p class="user-feedback">Đồ ăn ngon, phục vụ hơi lâu xíu. Nhà hàng ở chỗ hơi khó bắt taxi. Nhưng món thì ngon, mỗi tối có mấy chị đẹp lên múa và chơi nhạc cụ dân tộc rất hay!</p>
+                        </div>
+                    </div>
+                    <div class="feedback-container">
+                        <div>
+                            <p><img src="../data/icon/chimmy.png" alt="User Image" class="user-image"></p>
+                            <p class="user-name">Ẩn danh</p>
+                        </div>
+                        <div>
+                            <p class="user-feedback">Đồ ăn ngon, phục vụ hơi lâu xíu. Nhà hàng ở chỗ hơi khó bắt taxi. Nhưng món thì ngon, mỗi tối có mấy chị đẹp lên múa và chơi nhạc cụ dân tộc rất hay!</p>
+                        </div>
+                    </div>
+                    <div class="feedback-container">
+                        <div>
+                            <p><img src="../data/icon/chimmy.png" alt="User Image" class="user-image"></p>
+                            <p class="user-name">Ẩn danh</p>
+                        </div>
+                        <div>
+                            <p class="user-feedback">Đồ ăn ngon, phục vụ hơi lâu xíu. Nhà hàng ở chỗ hơi khó bắt taxi. Nhưng món thì ngon, mỗi tối có mấy chị đẹp lên múa và chơi nhạc cụ dân tộc rất hay!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div>
+                    <div class="recommend-container">
+                        <div class="recommend-header">
+                            <p class="recommend-title"> Có thể bạn thích</p>
+                        </div>
+                        <div>
+                            <img src="../data/images/Pastamania1.jpg" alt="Pastamania1" class="small-image">
+                            <p class="recommend-name">Pastamania</p>
+                            <p class="recommend-content">Món ăn Ý đảm bảo độ tươi ngon và hương vị, đặc biệt, các loại sốt dùng cho pasta và pizza đều được nhập khẩu trực tiếp từ Ý.</p>
+                            <hr>
+                        </div>
+                        <div>
+                            <img src="../data/images/LeResto1.jpg" alt="Pastamania1" class="small-image">
+                            <p class="recommend-name">Le Resto</p>
+                            <p class="recommend-content">Món ăn và thức uống được chế biến từ nguồn nguyên liệu tươi ngon và được chọn lựa kỹ càng bởi các đầu bếp về món Pháp.</p>
+                            <hr>
+                        </div>
+                        <div>
+                            <img src="../data/images/LongTrieu1.jpg" alt="Pastamania1" class="small-image">
+                            <p class="recommend-name">Nhà hàng Long Triều</p>
+                            <p class="recommend-content">Nổi tiếng với món dim sum trứ danh, như bánh bao xá xíu, cơm đậu đỏ cuộn với đậu hũ chiên giòn và tôm, bánh pudding xoài.</p>
+                            <hr>
+                        </div>
+                        <div>
+                            <img src="../data/images/Mandarine1.jpg" alt="Pastamania1" class="small-image">
+                            <p class="recommend-name">Mandarine</p>
+                            <p class="recommend-content">Quý Khách Hàng sẽ được hòa vào cuộc hành trình văn hóa ẩm thực Việt cao cấp mà không thể tìm thấy ở một nhà hàng nào khác</p>
+                            <hr>
+                        </div>
+                        <div>
+                            <img src="../data/images/Sorae1.jpg" alt="Pastamania1" class="small-image">
+                            <p class="recommend-name">Sorae Sushi & Lounge</p>
+                            <p class="recommend-content">Tận hưởng những trải nghiệm ẩm thực độc đáo của Nhật Bản và đắm mình trong nét đẹp văn hóa của Tokyo ngay tại Sài Gòn hoa lệ</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+</body>
+
+</html>
