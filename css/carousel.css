@@ -23,7 +23,7 @@ ul {
 }
 
 .slick-track {
-    width: 7210px;
+/*     width: 7210px; */
     display: flex;
     transition: 0.1s;
     transform: translateX(-1442px);
