@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/search-bar_style.css">
+
+</head>
+
+<body>
+    <div class="body__search-bar">
+        <div class="search-bar__title">
+            <h1>Tìm kiếm nhà hàng</h1>
+        </div>
+        <form action="">
+            <div class="search-bar__box">
+                <div class="search-bar__box__group search-bar__box">
+                    <div class="search-item">
+                        <input type="date" name="" id="booking-date">
+                    </div>
+                    <div class="search-item">
+                        <input type="text" name="" id="booking-time" placeholder="18:00" readonly>
+                        <span class="i-icon icon-clock"><img src="../data/icon/clock.svg" alt=""></span>
+                    </div>
+                    <div class="search-item">
+                        <input onclick="toggle_visibility('dropdown')" type="text" name="" id="number-of-cus" placeholder="2 người" readonly>
+                        <span class="i-icon icon-user"><img src="../data/icon/user.svg" alt=""></span>
+                        <div id="dropdown" class="cus-dropdown">
+                            <div class="input-group">
+                                <label for="adults">Người lớn</label>
+                                <select name="adults_" id="adults" class="" onchange="get_value('adults', 'childrens', 'number-of-cus')">
+                                    <option value="0">0</option>
+                                      <option value="1">1</option>
+                                      <option value="2">2</option>
+                                      <option value="3">3</option>
+                                      <option value="4">4</option>
+                                      <option value="5">5</option>
+                                </select>
+                                <span class=""></span>
+                            </div>
+                            <div class="input-group">
+                                <label for="childrens">Trẻ em</label>
+                                <select name="children_" id="childrens" class="" onchange="get_value('adults', 'childrens', 'number-of-cus')">undefined
+                                    <option value="0">0</option>
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                </select>
+                                <span class=""></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="search-item">
+                    <input type="text" name="" id="search-inp" placeholder="Địa điểm, Nhà hàng,...">
+                    <span class="i-icon icon-search"><img src="../data/icon/search.svg" alt=""></span>
+                </div>
+                <div class="search-bar__box__btn">
+                    <button class="btn" id="booking_btn">Đi ngay</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>

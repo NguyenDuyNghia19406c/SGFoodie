@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Những nhà hàng nổi bật</title>
+    <script src="https://www.w3schools.com/lib/w3.js"></script>
+    <link rel="stylesheet" href="../css/categoricalPageStyle.css">
+</head>
+
+<body style="background-color:white;" onload="loadData()">
+    <div w3-include-html="header.html">
+
+    </div>
+    <img class="banner" src="../images/whats-hot-banner.png" alt="Unable to load image">
+    <h2 class="heading">Những điểm đến thu hút thực khách tuần này</h2>
+    <div id="restaurantsRow">
+
+    </div>
+    <div w3-include-html="footer.html">
+
+    </div>
+    <script>
+        w3.includeHTML();
+    </script>
+
+    <script>
+        function loadData() {
+            var xmlhttp = new XMLHttpRequest();
+            var url = "../data/json/restaurants.json";
+
+            xmlhttp.onreadystatechange = function() {
+                if (this.readyState == 4 && this.status == 200) {
+                    var restaurants = JSON.parse(this.responseText);
+                    loadJSON(restaurants);
+                }
+            }
+            xmlhttp.open("GET", url, true);
+            xmlhttp.send();
+        }
+
+        function loadJSON(restaurants) {
+            let div = '';
+            for (let res of restaurants) {
+                if (res.category.includes('Nổi bật')) {
+                    let district = res.address.toString().split(',');
+                    div += '<div class="restaurantRow"><div><a href="#" target="_blank"><img class="restaurantImage" src="' + res.image[1] + '" alt="Unable to load image">' + '</a></div>' + '<div class="restaurantInfo"><a class="restaurantName" target="_blank" href="#">' + res.name + '</a>' + '<p class="restaurantLocation">' + district[2] + '</p>' + '<p class="restaurantShortDescription">"' + res.short_description + '"</p>' + '<div><button type="button" class="btnCTA btnMenu">Menu</button>' + '<button type="button" class="btnCTA btnBookTable">Đặt ngay</button></div></div></div>'
+                }
+            }
+            document.getElementById("restaurantsRow").innerHTML = div;
+        }
+    </script>
+</body>
+
+</html>
