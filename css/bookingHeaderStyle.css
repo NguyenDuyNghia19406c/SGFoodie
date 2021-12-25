@@ -1,0 +1,78 @@
+@font-face {
+    font-family: NotoSans;
+    src: url(../data/font/Noto_Sans/NotoSans-Regular.ttf);
+}
+
+* {
+    font-family: NotoSans;
+}
+
+:root {
+    --mainYellow: #FFCF01;
+    --mainGray: #E0E0E0;
+}
+
+.header-container {
+    width: 498px;
+    height: 150px;
+    background-color: var(--mainYellow);
+}
+
+.restaurant-info {
+    width: 90%;
+    margin: 0px auto;
+    padding-top: 25px;
+}
+
+.restaurant-image {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    border: 6px solid white;
+    float: left;
+    margin-right: 20px;
+}
+
+.opening-hours {
+    text-decoration: italic;
+}
+
+.progress-bar-container {
+    height: auto;
+    width: 498px;
+}
+
+.progresses {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.line {
+    width: 120px;
+    height: 6px;
+    background-color: var(--mainYellow)
+}
+
+#non-active.line {
+    background-color: var(--mainGray);
+}
+
+.steps {
+    display: flex;
+    font-size: 14px;
+    font-weight: bold;
+    width: 40px;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: var(--mainGray);
+    color: white;
+}
+
+#active.steps,
+#completed.steps {
+    background-color: var(--mainYellow);
+}

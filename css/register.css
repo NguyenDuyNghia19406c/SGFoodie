@@ -1,0 +1,41 @@
+@import "./login.css";
+.input {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.user-name {
+    justify-content: space-evenly;
+}
+
+.user-name div input {
+    width: 130px;
+}
+
+.input input {
+    padding-left: 35px;
+}
+
+.input i {
+    position: absolute;
+    left: 11%;
+    top: 18%;
+}
+
+#accept-checkbox {
+    line-height: 20px;
+    text-align: left;
+    width: 350px;
+    align-self: center;
+}
+
+#accept-rules {
+    width: 30px;
+    margin-right: 25px;
+}
+
+#btn {
+    background-color: var(--main-color-2);
+    color: black;
+}

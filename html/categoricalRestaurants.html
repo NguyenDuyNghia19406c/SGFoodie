@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phân loại</title>
+    <link rel="stylesheet" href="../css/categoricalPageStyle.css">
+    <link rel="shortcut icon" type="image/jpg" href="../images/SGFoodie_LOGO1.png" />
+    <script src="../js/angular.min.js"></script>
+    <script src="https://www.w3schools.com/lib/w3.js"></script>
+    <script>
+        let urlparams = new URLSearchParams(location.search);
+        var category = urlparams.get('category');
+    </script>
+    <script>
+        let app = angular.module("angularApp", []);
+        app.controller("categoryController", function($scope, $http) {
+            $http({
+                method: "GET",
+                url: "../data/restaurants.json"
+            }).then(
+                function success(response) {
+                    $scope.resList = response.data.filter(value => value.category.includes(category));
+                    let banner = {
+                        "Nổi bật": "../images/Categorical/noiBat.png",
+                        "Ưu đãi": "../images/Categorical/uuDai.png",
+                        "Văn hóa ẩm thực": "../images/Categorical/vanHoaAmThuc.png",
+                        "Tinh hoa Việt Nam": "../images/Categorical/tinhHoa.png",
+                        "Điểm nhấn quận mình": "../images/Categorical/diemNhan.png",
+                        "Kiểu Nhật": "../images/Categorical/kieuNhat.png",
+                        "Kiểu Trung": "../images/Categorical/kieuTrung.png",
+                        "Kiểu Âu": "../images/Categorical/kieuAu.png",
+                        "Kiểu Hàn": "../images/Categorical/kieuHan.png",
+                    };
+                    $scope.bannerSrc = banner[category];
+                },
+                function error(response) {
+                    $scope.error = response.statusText;
+                });
+        })
+    </script>
+</head>
+
+<body style="background-color:white;" ng-app="angularApp" ng-controller="categoryController">
+    <div w3-include-html="header.html"></div>
+    <img class="banner" src="{{bannerSrc}}" alt="Unable to load image">
+    <h2 class="heading">Những điểm đến thu hút thực khách tuần này</h2>
+    <div class="container">
+        <div class="restaurantRow" ng-repeat="res in resList">
+            <div>
+                <a href="restaurantPage.html?restaurantId={{res.id}}" target="_blank"><img class="restaurantImage" src="{{res.image[0]}}" alt="Unable to load image" title="{{res.name}}"></a>
+            </div>
+            <div class="restaurantInfo">
+                <a class="restaurantName" target="_blank" href="restaurantPage.html?restaurantId={{res.id}}">{{res.name}}</a>
+                <p class="restaurantLocation">{{res.address[0].split(',')[2]}}</p>
+                <p class="restaurantShortDescription">{{res.short_description}}</p>
+                <div>
+                    <a href="{{res.menu}}" target="_blank"><button type="button" class="btnCTA btnMenu">Menu</button></a>
+                    <button type="button" class="btnCTA btnBookTable">Đặt ngay</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div w3-include-html="footer.html">
+    </div>
+    <script>
+        w3.includeHTML();
+    </script>
+</body>
+
+</html>

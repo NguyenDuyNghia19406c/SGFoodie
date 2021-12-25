@@ -1,0 +1,958 @@
+[{
+        "id": "1",
+        "name": "Sorae Sushi & Lounge",
+        "short_description": "Tận hưởng những trải nghiệm ẩm thực độc đáo của Nhật Bản và đắm mình trong nét đẹp văn hóa của Tokyo ngay tại Sài Gòn hoa lệ",
+        "description": [
+            "Sorae – Phía trên bầu trời, giống như chính tên gọi của mình, Sorae là một trong những nhà hàng Nhật Bản có tầm nhìn ngoạn mục nhất và cũng là điểm đến lý tưởng nằm ngay giữa trung tâm Sài Gòn. Tọa lạc tại tầng 24 và 25 của tòa nhà văn phòng AB (76 Lê Lai, Quận 1), Sorae là một trong những nhà hàng Nhật Bản với phong cách ẩm thực sành điệu bậc nhất và là điểm đến nhất định phải biết của dân sành ăn ở trung tâm của thành phố. Nơi đây sẽ là địa điểm lý tưởng cho những vị thực khách muốn tận hưởng những trải nghiệm ẩm thực độc đáo của Nhật Bản và đắm mình trong nét đẹp văn hóa của Tokyo ngay tại Sài Gòn hoa lệ.",
+            "Không chỉ nổi tiếng những món sashimi trứ danh với các nguyên liệu tươi ngon nhất được đánh bắt tại Việt Nam hoặc vận chuyển trực tiếp từ chợ hải sản lừng danh Tsukiji và Osaka của Nhật Bản, nhà hàng Sorae còn có khu Yakitori &Beer Kitchen, nơi các đầu bếp thực hiện món nướng yakitori với các nguyên liệu cũng nổi bật không kém như bò Wagyu hay bò Angus được nướng trên bếp than đỏ rực để mang lại những hương vị tuyệt vời nhất. Tinh hoa ẩm thực Nhật Bản với mỗi món ăn là một tác phẩm nghệ thuật cùng sự tận tâm của hơn 20 đầu bếp hàng đầu đã làm nên hương vị Nhật Bản thuần khiết."
+        ],
+        "image": [
+            "../images/Sorae/Sorae1.jpg",
+            "../images/Sorae/Sorae2.png"
+        ],
+        "menu": [
+            "https://www.soraesushi.com/wp-content/uploads/2018/11/Sorae-Menu-Website-Review.pdf"
+        ],
+        "best_dishes": [
+            "Cua lột chiên giòn, giấm ngọt",
+            "Tempura lươn biển",
+            "Bò wagyu, sốt tương tỏi"
+        ],
+        "link": "https://www.soraesushi.com/",
+        "category": [
+            "Nổi bật",
+            "Kiểu Nhật"
+        ],
+        "address": [
+            "Tầng 24 và 25 của tòa nhà văn phòng AB, số 76 đường Lê Lai, Quận 1"
+        ],
+        "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.5313063919248!2d106.69219201477868!3d10.770559192325484!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752f180ccad35f%3A0xdf0443ae9fed46fc!2zVMOyYSBOaMOgIEFC!5e0!3m2!1svi!2s!4v1640165481935!5m2!1svi!2s",
+        "time": "Thứ 2 - Chủ Nhật: 5:00 pm - 11:00 pm",
+        "price_range": "150.000 ₫ - 2.500.545 ₫",
+        "special_diet": [
+            "Không có"
+        ],
+        "discount": "",
+        "cmt": [{
+                "user_id": "Chimmy",
+                "rate": 5,
+                "feedback": "Đồ ăn ngon, phục vụ hơi lâu xíu. Nhà hàng ở chỗ hơi khó bắt taxi. Nhưng món thì ngon, mỗi tối có mấy chị đẹp lên múa và chơi nhạc cụ dân tộc rất hay!"
+            },
+            {
+                "user_id": "Tata",
+                "rate": 5,
+                "feedback": "Đồ ăn rất ngon, không gian đẹp, ấm cúng. Sẽ quay lại lần hai!"
+            }
+        ]
+    },
+    {
+        "id": "2",
+        "name": "Mandarine",
+        "short_description": "Quý Khách Hàng sẽ được hòa vào cuộc hành trình văn hóa ẩm thực Việt cao cấp mà không thể tìm thấy ở một nhà hàng nào khác",
+        "description": [
+            "Trải qua hai thập kỷ, nhà hàng Mandarine luôn được sự đón nhận và đánh giá cao từ các nguyên thủ, doanh nhân và khách du lịch quốc tế về giá trị văn hóa và ẩm thực Việt. Với sự chú trọng đến từng chi tiết nội thất, Mandarine mang lại bầu không khí thưởng thức ẩm thực Việt sang trọng và thanh lịch mà Quý Khách Hàng không thể tìm thấy ở bất cứ một nơi nào khác.",
+            "Đến với Mandarine, Quý Khách Hàng sẽ được hòa vào cuộc hành trình văn hóa ẩm thực Việt cao cấp mà không thể tìm thấy ở một nhà hàng nào khác. Trong sự hòa nhập của xu thế phát triển toàn cầu, chúng tôi luôn trân quý những giá trị truyền thống và tinh hoa văn hóa dân tộc. ",
+            "Điều này được thể hiện qua mỗi khía cạnh của không gian, văn hóa, ẩm thực từ phong cách trang trí nội thất nhà hàng cho đến cách bày trí món ăn một cách tinh tế và nghệ thuật. Tinh tế ẩm thực Việt còn được kết hợp hài hòa với bộ sưu tập rượu vang  lớn về số lượng và tốt về chất lượng của một trong những hầm rượu vang đầu tiên tại Sài Gòn. Nhà hàng Mandarine hứa hẹn sẽ mang đến cho mỗi Thực Khách những trải nghiệm thực sự đặc sắc và hấp dẫn."
+        ],
+        "image": [
+            "../images/Mandarine/Mandarine1.jpg",
+            "../images/Mandarine/Mandarine2.png"
+        ],
+        "menu": [
+            "https://mandarine.com.vn/wp-content/uploads/2020/07/MANDARINE_ALCMENU_15072020.pdf"
+        ],
+        "best_dishes": [
+            "Tôm hùm hấp tỏi",
+            "Gà nướng chanh",
+            "Lẩu thập cẩm Mê-kong"
+        ],
+        "link": "https://mandarine.com.vn/vi/trang-chu/",
+        "category": [
+            "Nổi bật",
+            "Kiểu Việt"
+        ],
+        "address": [
+            "11a Ngô Văn Năm, Phường Bến Nghé, Quận 1"
+        ],
+        "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.392781887394!2d106.70378476477875!3d10.781198892318274!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752f4f277809b9%3A0x6012e44f98b56781!2sMandarine%20Restaurant!5e0!3m2!1svi!2s!4v1640165243434!5m2!1svi!2s",
+        "time": "Thứ 2 – Chủ Nhật: 11:30 AM - 10:30 PM",
+        "price_range": "150.000 - 2.000.000",
+        "special_diet": [
+            "Không có"
+        ],
+        "discount": "",
+        "cmt": [{
+                "user_id": "Aloha",
+                "rate": 5,
+                "feedback": "Đồ ăn ngon, phục vụ hơi lâu xíu. Nhà hàng ở chỗ hơi khó bắt taxi. Nhưng món thì ngon, mỗi tối có mấy chị đẹp lên múa và chơi nhạc cụ dân tộc rất hay!"
+            },
+            {
+                "user_id": "Jeff",
+                "rate": 5,
+                "feedback": "Đồ ăn rất ngon, không gian đẹp, ấm cúng. Sẽ quay lại lần hai!"
+            }
+        ]
+    },
+    {
+        "id": "3",
+        "name": "Bistro Song Vie Saigon",
+        "short_description": "Bò Wagyu hấp dẫn với phần thịt bò tươi ngọt tổng thể miếng bò không bị khô. Món tôm hùm sốt bơ thơm lừng, béo ngậy",
+        "description": [
+            "Bistro Song Vie Saigon nằm cạnh khách sạn Villa Song đồ sộ và view hướng thẳng sông Sài Gòn. Do nhà hàng nằm trong khuôn viên sân vườn, có nhiều hoa và cây xanh bao bọc nên vào buổi trưa khá mát mẻ. Nhà hàng chia làm 2 nửa biệt lập, gồm phòng lạnh được decor rất tây và khu vực ngoài trời bố trí cạnh bờ sông lộng gió. Riêng khung giờ từ 18:00 – 19:00 vào các tối Thứ Sáu và Thứ Bảy có live piano nên nhiều cặp đôi thích chọn nơi này cho buổi hẹn hò cuối tuần. Thực đơn tại Bistro Song Vie Saigon vô cùng phong phú với đủ các món từ Việt sang  u. Riêng những bạn yêu thích ẩm thực Trung Hoa cũng có thể đến đây để dùng bữa ngon lành.",
+            "Best seller của nhà hàng là bò Wagyu hấp dẫn với phần thịt bò tươi ngọt, có chút mỡ trộn lẫn giúp tổng thể miếng bò không bị khô. Đây cũng là một trong những nhà hàng tôm hùm ngon tại TPHCM. Món tôm hùm sốt bơ được chế biến rất vừa miệng với phần sốt bơ thơm lừng, béo ngậy. Thịt tôm chắc thịt, có vị tươi ngọt đúng chuẩn. Riêng thức uống thì có tropical smoothie và cocktail Song Vie mùi vị ổn và khá dễ uống mặc dù có thêm chút rượu trong công thức."
+        ],
+        "image": [
+            "../images/BistroSongVieSG/BistroSongVieSG1.jpg",
+            "../images/BistroSongVieSG/BistroSongVieSG2.png"
+        ],
+        "menu": [
+            "https://drive.google.com/file/d/1KT1VslqRLvAlnSCOY6b05IsDsmRYE5H-/view?usp=sharing"
+        ],
+        "best_dishes": [
+            "Tôm sú xào kiểu Singapore",
+            "Súp cua kiểu Quảng Châu"
+        ],
+        "link": "https://villasong.com/dining/bistro-song-vie-all-day-dining/",
+        "category": [
+            "Nổi bật",
+            "Kiểu Âu"
+        ],
+        "address": [
+            "197/2 Nguyễn Văn Hưởng, P. Thảo Điền, Quận 2"
+        ],
+        "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.049681030419!2d106.72506631477906!3d10.807506992300448!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3175261f1046e415%3A0x2c6a5aa12d60b454!2zMTk3LCAyIE5ndXnhu4VuIFbEg24gSMaw4bufbmcsIFRo4bqjbyDEkGnhu4FuLCBRdeG6rW4gMiwgVGjDoG5oIHBo4buRIEjhu5MgQ2jDrSBNaW5oLCBWaeG7h3QgTmFt!5e0!3m2!1svi!2s!4v1640165292205!5m2!1svi!2s",
+        "time": "Thứ 2 – Chủ Nhật: 06:00 - 22:00",
+        "price_range": "50.000 1.000.000",
+        "special_diet": [
+            "Không có"
+        ],
+        "discount": "",
+        "cmt": [{
+                "user_id": "Ferb",
+                "rate": 5,
+                "feedback": "Đồ ăn ngon, phục vụ hơi lâu xíu. Nhà hàng ở chỗ hơi khó bắt taxi. Nhưng món thì ngon, mỗi tối có mấy chị đẹp lên múa và chơi nhạc cụ dân tộc rất hay!"
+            },
+            {
+                "user_id": "Phineas",
+                "rate": 5,
+                "feedback": "Đồ ăn rất ngon, không gian đẹp, ấm cúng. Sẽ quay lại lần hai!"
+            }
+        ]
+    },
+    {
+        "id": "4",
+        "name": "Long Triều",
+        "short_description": "Nổi tiếng với món dim sum trứ danh, như bánh bao xá xíu, cơm đậu đỏ cuộn với đậu hũ chiên giòn và tôm, bánh pudding xoài.",
+        "description": [
+            "Sở hữu tầm nhìn ra đại lộ Nguyễn Huệ, nhà hàng Long Triều nổi tiếng với món dim sum trứ danh, như bánh bao xá xíu, cơm đậu đỏ cuộn với đậu hũ chiên giòn và tôm, và bánh pudding xoài.",
+            "Thực đơn gọi món đặc sắc của nhà hàng giới thiệu một hành trình trải nghiệm ẩm thực sang trọng với những món ăn nổi tiếng nhất của Trung Hoa như canh tổ yến sào, thịt heo quay mật ong, và món kinh điển của nhà hàng là khoai môn thái sợi chiên giòn & đậu phộng.",
+            "Nhà hàng bao gồm một sảnh chính sang trọng mang đến trải nghiệm nghệ thuật ẩm thực độc đáo và 9 phòng ăn riêng biệt, hoàn hảo cho những buổi gặp gỡ, họp mặt trang trọng và riêng tư. "
+        ],
+        "image": [
+            "../images/LongTrieu/LongTrieu1.jpg",
+            "../images/LongTrieu/LongTrieu2.png"
+        ],
+        "menu": [
+            "https://www.thereveriesaigon.com/wp-content/uploads/2019/12/royalpavilion_menu.pdf"
+        ],
+        "best_dishes": [
+            "Bào ngư nhất phẩm kiểu Long Triều",
+            "Yến sào Thái Cực",
+            "Bò Wagyu sốt Teriyaki"
+        ],
+        "link": "https://www.thereveriesaigon.com/vi/restaurants-bars-2/the-royal-pavilion/",
+        "category": [
+            "Nổi bật",
+            "Kiểu Trung"
+        ],
+        "address": [
+            "Lầu 4 Tòa Nhà Times Square, 22 - 36 Nguyễn Huệ & 57 - 69F Đồng Khởi, Quận 1"
+        ],
+        "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.490058848955!2d106.70244921477882!3d10.773728392323399!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752f46bd95968b%3A0x2019388bd58be697!2sTo%C3%A0%20nh%C3%A0%20Times%20Square!5e0!3m2!1svi!2s!4v1640165334133!5m2!1svi!2s",
+        "time": "Thứ 2 – Chủ Nhật: 11:00 - 14:00, 17:00 - 23:00",
+        "price_range": "500.000 - 4.000.000",
+        "special_diet": [
+            "Không có"
+        ],
+        "discount": "",
+        "cmt": [{
+                "user_id": "John",
+                "rate": 5,
+                "feedback": "Đồ ăn ngon, phục vụ hơi lâu xíu. Nhà hàng ở chỗ hơi khó bắt taxi. Nhưng món thì ngon, mỗi tối có mấy chị đẹp lên múa và chơi nhạc cụ dân tộc rất hay!"
+            },
+            {
+                "user_id": "Aleysa",
+                "rate": 5,
+                "feedback": "Đồ ăn rất ngon, không gian đẹp, ấm cúng. Sẽ quay lại lần hai!"
+            }
+        ]
+    },
+    {
+        "id": "5",
+        "name": "NAMO Italian",
+        "short_description": "Pizza kiểu Napoli với vành ngoài phồng rộp còn phần giữa thì mềm mại, các món ăn khác như salad, soup, pasta",
+        "description": [
+            "NAMO được sinh ra tại Ý, trong chuyến phiêu lưu về ẩm thực và văn hóa nhằm khám phá những bí mật đằng sau nền ẩm thực phổ biến nhất trên thế giới. Niềm đam mê, sự đổi mới và sự khéo léo mà chúng tôi khám phá trên đường phố Naples chính là nguồn năng lượng cung cấp năng lượng cho các nhà bếp tại ‘NAMO ngày nay. Cà chua San Marzano từ sườn núi Vesuvius, bánh pizza được nướng một cách nghệ thuật trong lò gạch Stefano Ferrara tùy chỉnh được xây dựng thủ công ở Naples, bánh burrata trắng sứ từ Puglia và rượu vang mịn như nhung từ Tuscany chỉ là một số trong số những khoản tiền thưởng đáng kinh ngạc mà chúng tôi đã khám phá được trong nhiệm vụ của mình. Được gắn kết với nhau dưới một mái nhà tại ‘NAMO, chúng tôi hy vọng bạn sẽ tận hưởng cuộc phiêu lưu Ý hiện đại của chúng tôi nhiều như chúng tôi đã làm."
+        ],
+        "image": [
+            "../images/NamoItalian/NamoItalian1.jpg",
+            "../images/NamoItalian/NamoItalian2.png"
+        ],
+        "menu": [
+            "https://www.namoitalian.com/menu"
+        ],
+        "best_dishes": [],
+        "link": "https://www.namoitalian.com/",
+        "category": [
+            "Ưu đãi",
+            "Kiểu Âu"
+        ],
+        "address": [
+            "74/6, Hai Bà Trưng, quận 1"
+        ],
+        "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.43561904524!2d106.70158061477885!3d10.777909792320564!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752f4627057041%3A0x3be4ebdc7b8f7500!2zNzQvNiBIYWkgQsOgIFRyxrBuZywgQuG6v24gTmdow6ksIFF14bqtbiAxLCBUaMOgbmggcGjhu5EgSOG7kyBDaMOtIE1pbmggNzAwMDAwLCBWaeG7h3QgTmFt!5e0!3m2!1svi!2s!4v1640165384516!5m2!1svi!2s",
+        "time": "Thứ 2 – Chủ Nhật: 11h - 14h, 17h - 22h",
+        "price_range": "250.000 - 750.000",
+        "special_diet": [
+            "Không có"
+        ],
+        "discount": "Giảm giá lên đến 10%",
+        "cmt": [{
+                "user_id": "Meow",
+                "rate": 5,
+                "feedback": "Đồ ăn ngon, phục vụ hơi lâu xíu. Nhà hàng ở chỗ hơi khó bắt taxi. Nhưng món thì ngon, mỗi tối có mấy chị đẹp lên múa và chơi nhạc cụ dân tộc rất hay!"
+            },
+            {
+                "user_id": "Mahiru",
+                "rate": 5,
+                "feedback": "Đồ ăn rất ngon, không gian đẹp, ấm cúng. Sẽ quay lại lần hai!"
+            }
+        ]
+    },
+    {
+        "id": "6",
+        "name": "Don Chicken",
+        "short_description": "Don Chicken là nhà hàng gà Hàn Quốc đi đầu xu thế sử dụng nước sốt nhập khẩu 100% từ Hàn Quốc đảm bảo vệ sinh an toàn thực phẩm.",
+        "description": [
+            "Don Chicken là nhà hàng gà Hàn Quốc đi đầu xu thế sử dụng nước sốt nhập khẩu 100% từ Hàn Quốc đảm bảo vệ sinh an toàn thực phẩm. Nhãn hiệu Don Chicken lấy ý tưởng từ hình tượng chàng hiệp sĩ Don Quixote trong cuốn tiểu thuyết “Don Quixote xứ Mancha” của Tây Ban Nha. Don Quixote xứ Mancha là một cuộc phiêu lưu hoang dã và gian khổ với ý chí bất khuất để cứu công chúa, thể hiện tinh thần mạnh mẽ, dám đương đầu thử thách của Don Chicken, đem những món ăn chất lượng tuyệt vời tới khách hàng."
+        ],
+        "image": [
+            "../images/DonChicken/DonChicken1.png",
+            "../images/DonChicken/DonChicken2.png"
+        ],
+        "menu": [
+            "https://donchicken.vn/thc-don.html"
+        ],
+        "best_dishes": [
+            "Gà rán sốt gia vị",
+            "Gà nướng tỏi",
+            "Chân gà cay”, “Miến trộn Hàn Quốc"
+        ],
+        "link": "https://donchicken.vn/",
+        "category": [
+            "Ưu đãi",
+            "Văn hóa ẩm thực",
+            "Kiểu Hàn"
+        ],
+        "address": [
+            "67-69 Cách Mạng Tháng Tám, Phường Phạm Ngũ Lão, Quận 1"
+        ],
+        "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.5125938175984!2d106.68986051428705!3d10.771997062222251!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752f3c69bdcf6d%3A0xf279bf3513300f1f!2zNjctNjkgQ8OhY2ggTeG6oW5nIFRow6FuZyBUw6FtLCBQaMaw4budbmcgUGjhuqFtIE5nxakgTMOjbywgUXXhuq1uIDEsIFRow6BuaCBwaOG7kSBI4buTIENow60gTWluaCwgVmnhu4d0IE5hbQ!5e0!3m2!1svi!2s!4v1640165207303!5m2!1svi!2s",
+        "time": "Thứ 2 - Chủ Nhật: 11:00 - 21:00",
+        "price_range": "80.000 ₫ - 500.00 ₫",
+        "special_diet": [
+            "Không có"
+        ],
+        "discount": "Giảm giá 10% cho hóa đơn trên 300.000đ",
+        "cmt": [{
+                "user_id": "Takt",
+                "rate": 4,
+                "feedback": "Cuối tuần hẹn nhau thưởng thức những món ăn best seller nhà DonChicken. Không gian quán hơi nhỏ có hơi không thoải mái lắm nhưng bù lại đồ ăn rất ngon. Nhân viên cũng nhiệt tình fill nước đồ ăn kèm."
+            },
+            {
+                "user_id": "Zeous",
+                "rate": 5,
+                "feedback": "Đồ ăn rất ngon, menu đa dạng và chuẩn vị Hàn Quốc, sẽ tiếp tục quay lại lần sau!"
+            }
+        ]
+    },
+    {
+        "id": "7",
+        "name": "Truffle",
+        "short_description": "Với các nguyên liệu tuyệt hảo, Truffle landmark 81 sẽ đưa bạn đến với trải nghiệm ẩm thực quốc tế chưa từng có.",
+        "description": [
+            "Nhà hàng Truffle Landmark 81 sở hữu một không gian sang trọng, là địa điểm lý tưởng để chiêu đãi các vị khách quý cũng dành một đêm với người thân yêu của bạn. Truffle restaurant landmark 81 còn có Cigar Lounge- nơi để thưởng thức các loại xì gà được tuyển chọn và rượu mạnh hay rượu Champagnes tốt nhất. Nhà hàng Truffle và Cigar Lounge chuyên phục vụ Ẩm thực Pháp cao cấp. Với các nguyên liệu tuyệt hảo được tuyển chọn từ khắp nơi trên thế giới, Truffle landmark 81 sẽ đưa bạn đến với trải nghiệm ẩm thực quốc tế chưa từng có. Bên cạnh các nguyên liệu tuyệt hảo, các món ăn ở đây cũng được chuẩn bị bởi các Bếp trưởng quốc tế hàng đầu. Nhà hàng cao cấp Truffle đảm bảo trải nghiệm ẩm thực của bạn được trọn vẹn. Thực được chọn lọc và theo mùa, chỉ sử dụng những nguyên liệu tốt nhất do Bếp trưởng lựa chọn cẩn thận để mang đến trải nghiệm ẩm thực tuyệt vời. Ngoài Truffles, tại nhà hàng còn có Thịt bò Kobe A5, Uni, Trứng cá muối, Tôm hùm chất lượng cao nhất và các thành phần khác đơn giản là Loại Tốt nhất."
+        ],
+        "image": [
+            "../images/Truffle/Truffle1.png",
+            "../images/Truffle/Truffle2.png"
+        ],
+        "menu": [
+            "https://drive.google.com/file/d/19XKHZQWcCUbS-3nJcOwk2A-3aBsDvVm5/view?usp=sharing"
+        ],
+        "best_dishes": [
+            "Bò kobe sốt cùng nấm truffle",
+            "Sò điệp tươi",
+            "Cua Alaska"
+        ],
+        "link": "https://vi.the-truffle.com/",
+        "category": [
+            "Ưu đãi",
+            "Văn hóa ẩm thực",
+            "Điểm nhấn quận mình",
+            "Kiểu Âu"
+        ],
+        "address": [
+            "208 Nguyễn Hữu Cảnh Tầng 73, Phường 22, Quận Bình Thạnh"
+        ],
+        "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.205443666732!2d106.71701991428716!3d10.79557136179327!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317528a91771a389%3A0xa2bd53dd9d38d590!2zVOG6p25nIDczLCAyMDggxJAuIE5ndXnhu4VuIEjhu691IEPhuqNuaCwgUGjGsOG7nW5nIDIyLCBCw6xuaCBUaOG6oW5oLCBUaMOgbmggcGjhu5EgSOG7kyBDaMOtIE1pbmggNzAwMDAwLCBWaeG7h3QgTmFt!5e0!3m2!1svi!2s!4v1640165261736!5m2!1svi!2s",
+        "time": "Thứ 3 - Chủ nhật: 15:00 - 23:00",
+        "price_range": "390.000 ₫ - 4.800.000 ₫",
+        "special_diet": [
+            "Không có"
+        ],
+        "discount": "Tặng 1 ly cocktail cho hóa đơn trên 500.000đ",
+        "cmt": [{
+            "user_id": "Dragon",
+            "rate": 5,
+            "feedback": "Những món ăn ngon, khung cảnh tuyệt đẹp và tầm nhìn tuyệt vời kết hợp với dịch vụ chu đáo từ đội ngũ nhân viên chất lượng - mang đến trải nghiệm thực sự ngoạn mục tại Nhà hàng Truffle nằm trên một trong những tầng trên cùng của khách sạn Luxury Landmark 81. Đó chắc chắn là một bữa ăn có một không hai trên những trải nghiệm trên mây."
+        }]
+    },
+    {
+        "id": "8",
+        "name": "Shamballa",
+        "short_description": "Tận hưởng những khoảnh khắc thư giãn, bên cạnh những món chay thuần khiết và không kém phần ngon miệng",
+        "description": [
+            "Lấy cảm hứng từ một vương quốc huyền bí trong Phật giáo Tây Tạng, Shamballa Vegetarian Restaurant & Tea House ra đời với mong muốn: mang đến cho thực khách cơ hội tận hưởng những khoảnh khắc thư giãn nhẹ nhàng, bên cạnh những món chay thuần khiết và không kém phần ngon miệng. Tại địa chỉ 17-19 Trịnh Văn Cấn, phường Cầu Ông Lãnh, quận 1, nhà hàng chay Shamballa mời thực khách bước chân vào một không gian rộng thoáng với sự kết hợp độc đáo giữa kiến trúc Pháp thuộc cùng không gian xanh dịu mát từ thiên nhiên. Bên cạnh không gian ấn tượng, Shamballa Vegetarian còn thu hút thực khách bằng một thực đơn món chay đa dạng và hấp dẫn. Mỗi món ngon tại đây đều bắt nguồn từ những nguyên liệu thiên nhiên thuần khiết với sự tỉ mỉ và kỹ càng trong khâu chọn lựa. Thêm vào đó, bằng sự sáng tạo tuyệt vời của đội ngũ đầu bếp tài hoa, tất cả góp phần tạo nên một “bữa tiệc” chay đủ đầy về số lượng và trọn vẹn về chất lượng làm hài lòng khẩu vị các thực khách yêu ẩm thực chay. Có thể điểm qua một vài cái tên tiêu biểu trong thực đơn đầy đủ các món soup, gỏi/salad, cuốn, cơm, canh, bánh, lẩu, mì của Shamballa như: Đậu hũ ba tầng, Soup Shamballa, Cuốn Shamballa, Gỏi hoa chuối rong gai, Cơm gạo lứt lá sen, Miến xào nồi đất, Lẩu nấm tứ vị..."
+        ],
+        "image": [
+            "../images/Shamballa/Shamballa1.png",
+            "../images/Shamballa/Shamballa2.png"
+        ],
+        "menu": [
+            "https://drive.google.com/file/d/1TfSJWC87smNsmg0lbkq4BrimdfRQ-nIo/view?usp=sharing"
+        ],
+        "best_dishes": [
+            "Đậu hũ ba tầng",
+            "Cơm gạo lứt lá sen",
+            "Miến xào nồi đất",
+            "Soup Shamballa"
+        ],
+        "link": "https://theshamballa.com/",
+        "category": [
+            "Văn hóa ẩm thực",
+            "Tinh Hoa Việt Nam",
+            "Ưu đãi",
+            "Kiểu Việt"
+        ],
+        "address": [
+            "17-19 Trịnh Văn Cấn, Phường Cầu Ông Lãnh, Quận 1"
+        ],
+        "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.5752833985184!2d106.6943633142869!3d10.767179262309767!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752f1584084db5%3A0x5531e2cbf24a3788!2zMTctMTkgVHLhu4tuaCBWxINuIEPhuqVuLCBTdCwgUXXhuq1uIDEsIFRow6BuaCBwaOG7kSBI4buTIENow60gTWluaCA3MDAwMCwgVmnhu4d0IE5hbQ!5e0!3m2!1svi!2s!4v1640165365183!5m2!1svi!2s",
+        "time": "Thứ 2 - Chủ nhật: 10:00 - 22:00",
+        "price_range": "454.545 ₫ - 2.272.727 ₫",
+        "special_diet": [
+            "Phù hợp với người ăn chay",
+            "Tùy chọn ăn chay"
+        ],
+        "discount": "Giảm giá 10% cho hóa đơn trên 300.000đ",
+        "cmt": [{
+                "user_id": "Silco",
+                "rate": 5,
+                "feedback": "Lần quay lại sau 5 tháng dịch thì mọi thứ vẫn như vậy, thức ăn vẫn ngon, không gian vẫn đẹp và con người vẫn rất thân thiện, bên cạnh nhiều sự thay đổi xung quanh ta thì vẫn còn những nơi vẫn rất yên bình đáng để bạn trải nghiệm như Shamballa!"
+            },
+            [{
+                "user_id": "Candace",
+                "rate": 5,
+                "feedback": "Đã 5 tháng rồi mình mới được thoải mái đi lại, vô tình ghé vào nhà hàng này và mình thật sự bất ngờ. Giữa lòng sài gòn hoa lệ lại có 1 nơi vừa bình yên mộc mạc chất phát mà lại sang trọng đến thế. Góc trưng bày sản phẩm rất tinh tế kết hợp với hương thơm thoang thoảng của trầm khiến cho mình có cảm giác rất thoải mái khi tham quan 1 vòng nhà hàng. Đồ ăn được trình bày rất bắt mắt cũng như rất hợp khẩu vị mình 10/10 điểm cho nhà hàng này."
+            }]
+        ]
+    },
+    {
+        "id": "9",
+        "name": "Ibuki",
+        "short_description": "Bản hòa tấu giữa tinh hoa ẩm thực Nhật Bản và nghệ thuật phương Tây. Mỗi món ăn xứng đáng là một kho báu để khám phá",
+        "description": [
+            "Ra đời vào thế chiến thứ II, Teppanyaki là bản hòa tấu tinh tế giữa tinh hoa ẩm thực Nhật Bản và nghệ thuật trình diễn phương Tây; trong đó teppan có nghĩa là gang thép, và yaki là tên gọi chung của các món ăn được chế biến trên chảo. Khi làn khói bắt đầu lan toả trên chiếc bàn nướng thép khổng lồ, quyện theo hương thơm đặc trưng của từng nguyên liệu, cũng là lúc người đầu bếp Teppanyaki thăng hoa với việc dùng những chiếc xẻng nấu ăn điêu luyện để chế biến ra các món ăn tinh tế trong sự chăm chú, ngưỡng mộ của thực khách. Bí mật của phong cách ẩm thực này nằm ở bếp nướng teppan gồm tấm chảo phẳng, đảm bảo nhiệt độ thống nhất trên toàn bề mặt, làm bốc hơi lượng nước dư thừa nhưng đồng thời giữ lại được vị tinh túy của nguyên liệu tươi ngon. Cùng với tài nghệ của đầu bếp, mỗi món ăn Teppanyaki xứng đáng là một kho báu để khám phá, đưa cảm quan thực khách chạm đỉnh thăng hoa. Đúng với tên gọi của mình, IBUKI (có nghĩa là ngọn gió mới) tự hào mang đến trải nghiệm ẩm thực đặc sắc với tham vọng định nghĩa lại phong cách thưởng thức Teppanyaki của thực khách Việt."
+        ],
+        "image": [
+            "../images/Ibuki/Ibuki1.png",
+            "../images/Ibuki/Ibuki2.png"
+        ],
+        "menu": [
+            "https://drive.google.com/file/d/118oYxtvt0EPLuICBbW8Dy7L_Q1-z2TML/view?usp=sharing"
+        ],
+        "best_dishes": [
+            "Tempura thập cẩm",
+            "Bò bít tết đặc biệt với gan ngỗng",
+            "Cơm với cá chình hầm",
+            "Cơm lươn nướng"
+        ],
+        "link": "https://ibuki.vn/",
+        "category": [
+            "Văn hóa ẩm thực",
+            "Kiểu Nhật"
+        ],
+        "address": [
+            "Lầu 1 76 Lê Lai, Phường Bến Thành, Quận 1"
+        ],
+        "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.5284789790453!2d106.69281481428699!3d10.770776462244406!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752f3e8eb8e46b%3A0xfbce49e4fe7a2831!2zVOG6p25nIDEsIE5ldyBXb3JsZCBIb3RlbCwgNzYgTMOqIExhaSwgUGjGsOG7nW5nIELhur9uIFRow6BuaCwgUXXhuq1uIDEsIFRow6BuaCBwaOG7kSBI4buTIENow60gTWluaCA3MTAwOSwgVmnhu4d0IE5hbQ!5e0!3m2!1svi!2s!4v1640165393913!5m2!1svi!2s",
+        "time": "Thứ 2 - Chủ nhật: 10:00 - 22:00",
+        "price_range": "200.000 ₫ - 5.000.000 ₫",
+        "special_diet": [
+            "Không có"
+        ],
+        "discount": "",
+        "cmt": [{
+            "user_id": "Jessica",
+            "rate": 5,
+            "feedback": "Không gian nhà hàng phù hợp tiếp khách business vì kín đáo, không ồn ào. Có phòng riêng rất riêng tư decor kiểu business. Bàn chuyện riêng muốn kín đáo không ai thấy thì ở đây hợp. Đồ ăn ngon và siêu tươi. Rất khác các nhà hàng Nhật khác ở Sài Gòn. Thích nhất anh bếp trưởng người Nhật hay hỏi thăm và tư vấn cách ăn."
+        }]
+    },
+    {
+        "id": "10",
+        "name": "El Gaucho Steakhouse",
+        "short_description": "Nhà hàng mang đến hương vị Argentina lôi cuốn, thịt bò mềm như tan trong miệng. Ngoài ra, còn có đủ các loại rượu vang",
+        "description": [
+            "Tọa lạc tại vị trí trung tâm quận 1, nằm đối diện khách sạn Park Hyatt, El Gaucho sở hữu không gian 3 tầng ấn tượng với các cửa sổ lớn từ sàn đến trần. Không gian và nội thất được thiết kế sang trọng, pha lẫn nét cổ điển và phá cách, có thể phục vụ cùng lúc khoảng 200 khách. Tầng trệt gồm khu vực bếp và quầy bar mở, không chỉ là nơi chào đón thực khách, mà còn thể hiện “nhịp đập” của nhà hàng. Các tầng còn lại gồm hệ thống các phòng ăn riêng tư, yên tĩnh rất thích hợp để tiếp khách, tổ chức tiệc kỷ niệm, họp mặt gia đình, bạn bè, hẹn hò cặp đôi. Một lần thử món steak ở đây bạn mới cảm nhận hết chất lượng của El Gaucho Steakhouse. Nhà hàng có nhiều loại thịt bò, thường bạn có thể order theo phần 250 gram, 500 gram hoặc 1 kg. Nếu bạn order medium rare, bạn sẽ cảm nhận thịt bò ở El Gaucho Steakhouse mềm như tan ngay trong miệng. Các món ăn kèm và nước sốt đa dạng. El Gaucho Steakhouse còn có đủ các loại rượu vang để ăn kèm với thịt bò. Nếu không rành về rượu, nhân viên sẽ nhiệt tình tư vấn cho bạn từ món ăn đến các loại rượu đi kèm."
+        ],
+        "image": [
+            "../images/ElGaucho/ElGaucho1.png",
+            "../images/ElGaucho/ElGaucho2.png"
+        ],
+        "menu": [
+            "https://vn.elgaucho.asia/menus/"
+        ],
+        "best_dishes": [
+            "Thịt bò Wagyu",
+            "Thịt cừu thượng hạng",
+            "Soup thịt chuẩn vị Argentina"
+        ],
+        "link": "https://vn.elgaucho.asia/",
+        "category": [
+            "Văn hóa ẩm thực",
+            "Nổi bật",
+            "Kiểu Nhật"
+        ],
+        "address": [
+            "74/1 Hai Bà Trưng, phường Bến Nghé, Quận 1"
+        ],
+        "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.433971751164!2d106.7014079153523!3d10.778036292320476!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752f4627fc020d%3A0x3f4e7d49343f4ca8!2zNzQvMSBIYWkgQsOgIFRyxrBuZywgQuG6v24gTmdow6ksIFF14bqtbiAxLCBUaMOgbmggcGjhu5EgSOG7kyBDaMOtIE1pbmggMTAwMDAwLCBWaeG7h3QgTmFt!5e0!3m2!1svi!2s!4v1640165356668!5m2!1svi!2s",
+        "time": "Thứ 2 - Chủ nhật: 11:00 - 23:00",
+        "price_range": "300.000 ₫ - 4.000.000 ₫",
+        "special_diet": [
+            "Không có"
+        ],
+        "discount": "",
+        "cmt": [{
+            "user_id": "Bnbquyen",
+            "rate": 4,
+            "feedback": "Nhà hàng trang trí đẹp nhưng các bàn được bố trí quá gần nhau cộng thêm nhạc rất lớn nên khó trò chuyện. Tôi rất ấn tượng với nhân viên ở đây vì họ rất chuyên nghiệp và thân thiện. Họ thường xuyên thăm hỏi chúng tôi trong suốt bữa ăn. Hơn thế nữa, đồ ăn và thức uống đều tuyệt vời. Chúng tôi đã đã được thưởng thức món salad, súp cua và món bò rất ngon và được offer một loại thức uống tiêu vị đặc biệt của họ. Nói chung, tôi sẽ quay lại nơi đây nếu đến thành phố Hồ Chí Minh dịp tới."
+        }]
+    },
+    {
+        "id": "11",
+        "name": "Grill & Cheer",
+        "short_description": "Kết hợp các tinh hoa nướng – lẩu của văn hóa ẩm thực Hàn Quốc, Nhật Bản, các loại sốt ướp và sốt chấm với công thức đặc biệt",
+        "description": [
+            "Được thành lập từ đầu năm 2017, Grill & Cheer là chuỗi nhà hàng buffet nướng & lẩu Hàn – Nhật với 06 chi nhánh, mang phong cách kết hợp các tinh hoa nướng – lẩu của hai nền văn hóa ẩm thực Hàn Quốc, Nhật Bản.",
+            "Điểm đặc trưng khiến mọi khách hàng đều yêu mến Grill & Cheer chính là các loại sốt ướp và sốt chấm với công thức đặc biệt từ nguyên liệu trái cây nhập khẩu và kỹ thuật chưng cất công phu, kỹ lưỡng. Vì thế đã làm cho các món nướng của Grill & Cheer trở nên đậm đà, ngọt thơm, hấp dẫn nhưng không làm mất đi vị nguyên bản.",
+            "Bữa tiệc nướng với hơn 72 món nướng, lẩu cùng những món ăn kèm độc đáo, Grill & Cheer mong muốn truyền cảm hứng về tinh hoa trong sự giao thoa ẩm thực của hai nền văn hóa Hàn Quốc và Nhật Bản. Bên cạnh đó, chúng tôi còn tâm huyết mang đến trải nghiệm “Ăn nướng cân bằng”, giúp các thực khách của Grill & Cheer luôn giữ được thói quen ăn uống cân bằng dinh dưỡng trong không gian ấm cúng, kết nối tình thân của nhà hàng."
+        ],
+        "image": [
+            "../images/GrillCheer/GrillCheer1.png",
+            "../images/GrillCheer/GrillCheer2.png"
+        ],
+        "menu": [
+            "http://grillandcheer.com/wp-content/uploads/2021/06/Menu-Alacarte.pdf"
+        ],
+        "best_dishes": [
+            "Buffet nướng",
+            "Lẩu Hàn – Nhật"
+        ],
+        "link": "http://grillandcheer.com/",
+        "category": [
+            "Văn hóa ẩm thực",
+            "Điểm nhấn quận mình",
+            "Kiểu Hàn"
+        ],
+        "address": [
+            "242 Phạm Văn Đồng, P. Hiệp Bình Chánh, Quận Thủ Đức",
+            "L4-19, Vincom Plaza Lê Văn Việt, số 50 Lê Văn Việt, quận 9"
+        ],
+        "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3918.7768488019888!2d106.71991611535253!3d10.828381992286301!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752881c9945ced%3A0x1caedeb41db83dc7!2zMjQyIMSQLiBQaOG6oW0gVsSDbiDEkOG7k25nLCBIaeG7h3AgQsOsbmggQ2jDoW5oLCBUaOG7pyDEkOG7qWMsIFRow6BuaCBwaOG7kSBI4buTIENow60gTWluaCwgVmnhu4d0IE5hbQ!5e0!3m2!1svi!2s!4v1640165566270!5m2!1svi!2s",
+        "time": "Thứ 2 - Chủ Nhật: 10h00 - 22h00",
+        "price_range": "189.000 ₫ - 319.00 ₫",
+        "special_diet": [
+            "Không có"
+        ],
+        "discount": "Không có",
+        "cmt": [{
+                "user_id": "Cú mèo",
+                "rate": 4,
+                "feedback": "Không gian rộng, sắp xếp rất hợp lý nên chứa cũng được khá nhiều người. Quầy line buffet cũng khá đa dạng. Mình và bạn mua được voucher trên HotDeals nên chỉ còn 189k/ng, như vậy cũng khá hời. Các món nướng ngon, lên nhanh và đầy đủ, bánh hành hải sản khá hợp vị mình, các món trên line buffet ổn."
+            },
+            {
+                "user_id": "Bồ câu",
+                "rate": 5,
+                "feedback": "Mình rất thích ăn món nương, đặc biệt là vào mùa này trời khá lạnh. Chất lượng nhà hàng ở đây rất tốt, nhân viên cực chăm khách luôn nha. Món ăn ở đây theo khẩu vị của mình thì khá là ngon đấy, quầy line cũng sịn sò lắm nha mọi người. Món bò nướng lá lốt trên line cực ngon luôn í. Mọi người nên đến và thử trãi nghiệm ở G & Ch thay vì đi những nhà hàng nướng quen thuộc, biết đâu được các bạn sẽ mê mẫn nơi này hơn bên kia đấy nha."
+            }
+        ]
+    },
+    {
+        "id": "12",
+        "name": "Trois Gourmands",
+        "short_description": "Thực đơn Pháp hảo hạng dưới sự sáng tạo của Gils, một đầu bếp nổi tiếng với các sản phẩm tự nhiên như pho mát tự làm",
+        "description": [
+            "Trois Gourmands được đánh giá là một trong những Nhà hàng Pháp tốt nhất tại Thành phố Hồ Chí Minh. Khai trương vào năm 2004 và trước đây có tên là Le Toit Gourmand, nhà hàng ăn uống hảo hạng của Pháp này là sự sáng tạo của Gils, một người gốc Đông Nam nước Pháp, người đã cống hiến hết mình cho sự xuất sắc trong nghệ thuật ẩm thực Pháp với sự cống hiến đặc biệt cho các sản phẩm tự nhiên như pho mát tự làm. và để 'làm việc' các thành phần cao quý như Gan ngỗng và Nấm cục.",
+            "Cách trung tâm thành phố một quãng đi xe ngắn và tọa lạc trong khu vườn nhiệt đới tươi tốt trong một ngôi nhà kiểu thuộc địa truyền thống, Trois Gourmands là địa điểm hoàn hảo cho bữa tối lãng mạn dưới ánh sao, đi công tác hay tụ tập bạn bè. Nội thất được trang bị đơn giản và trang nhã mang đến cho bạn một bầu không khí thư giãn. Sự hiếu khách nồng hậu của chủ nhà và nhóm của anh ấy sẽ để lại cho bạn một trải nghiệm ẩm thực khó quên."
+        ],
+        "image": [
+            "../images/TroisGourmands/TroisGourmands1.png",
+            "../images/TroisGourmands/TroisGourmands2.png"
+        ],
+        "menu": [
+            "https://drive.google.com/file/d/1jz94sDOwuSaT7Mt9BJVXJXhfDQxR5gXj/view"
+        ],
+        "best_dishes": [
+            "Không có"
+        ],
+        "link": "http://3gourmandsaigon.com.vn/",
+        "category": [
+            "Văn hóa ẩm thực",
+            "Điểm nhấn quận mình",
+            "Kiểu Âu"
+        ],
+        "address": [
+            "39, Trần Ngọc Diện Thảo Điền, Quận 2."
+        ],
+        "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.066005698558!2d106.73829921535248!3d10.80625669230129!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317526167cbdea29%3A0x1ad3fa106db4ebc7!2zMzkgxJAuIFRy4bqnbiBOZ-G7jWMgRGnhu4duLCBUaOG6o28gxJBp4buBbiwgUXXhuq1uIDIsIFRow6BuaCBwaOG7kSBI4buTIENow60gTWluaCwgVmnhu4d0IE5hbQ!5e0!3m2!1svi!2s!4v1640165618229!5m2!1svi!2s",
+        "time": "Thứ 3 - chủ nhật: buổi trưa từ 11:30 - 13:30, buổi tối từ: 18:00 - 21:00",
+        "price_range": "1.163.000 ₫ - 1.395.000 ₫",
+        "special_diet": [
+            "Không có"
+        ],
+        "discount": "Không có",
+        "cmt": [{
+                "user_id": "Chim sẻ",
+                "rate": 5,
+                "feedback": "Lần đầu ăn ở đây chắc cũng cách khoảng trên 5 năm rồi... Mãi mới có dịp. Nhớ như in cái vị của Macaron ăn ở bên Paris ngọt đến tê tâm liệt phế xong về Việt Nam ăn lại ở đây cơ vị lại thanh đạm vừa miệng đến mê người."
+            },
+            {
+                "user_id": "Đại bàng",
+                "rate": 5,
+                "feedback": "Mình đặt bàn và chọn set ăn tối ở đây! Không gian lãng mạn và ấm cúng lắm! Món ăn ngon, đúng điệu từ khai vị đến món chính, tráng miệng!. Mình dùng tổng cộng hơn 8 món nên không nhớ hết tên nhưng món nào cũng ngon! Chỉ có món phô mai do mình không ăn được vị phô mai nước ngoài, goat chese , rất nồng làm từ sữa dê nên bỏ lỡ món đó."
+            }
+        ]
+    },
+    {
+        "id": "13",
+        "name": "Red Chilli",
+        "short_description": "Mỗi món ăn là một công thức, là một câu chuyện được gửi gắm, phong cách ẩm thực đa văn hóa biến tấu ngẫu hứng và sáng tạo",
+        "description": [
+            "Lấy cảm hứng từ ký ức miền Viễn Đông pha trộn giữa yếu tố phương Tây hiện đại, Red Chilli sở hữu cung cách bài trí độc đáo với tường gạch cổ điển, nội thất gỗ sang trọng và ánh nến ấm cúng. Tại đây, mỗi món ăn là một công thức sáng tạo đầy tâm huyết, là một câu chuyện được gửi gắm. Còn gì tuyệt vời hơn khi cùng gia đình và người thân thương dùng bữa bên những bàn tiệc đẹp mắt, trải nghiệm phong cách ẩm thực đa văn hóa được biến tấu ngẫu hứng, sáng tạo và đẳng cấp? Hãy để Red Chilli đánh thức giác quan của và khơi gợi niềm hạnh phúc chân phương của mỗi người."
+        ],
+        "image": [
+            "../images/RedChilli/RedChilli1.png",
+            "../images/RedChilli/RedChilli2.png"
+        ],
+        "menu": [
+            "http://chloegallery.vn/wp-content/uploads/2019/07/New-Buffet-Buffet-July-ALL.pdf"
+        ],
+        "best_dishes": [
+            "Buffet hải sản & đồ nướng"
+        ],
+        "link": "http://chloegallery.vn/am-thuc/red-chilli-seafood-buffet",
+        "category": [
+            "Văn hóa ẩm thực",
+            "Tinh hoa Việt Nam",
+            "Điểm nhấn quận mình",
+            "Kiểu Việt"
+        ],
+        "address": [
+            "2 Phan Văn Chương, Tân Phú, Quận 7"
+        ],
+        "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3920.1285184988164!2d106.71746281535196!3d10.72456949235677!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752f8b10efd46f%3A0xa9672b8b7d9f1341!2zMiBQaGFuIFbEg24gQ2jGsMahbmcsIFTDom4gUGjDuiwgUXXhuq1uIDcsIFRow6BuaCBwaOG7kSBI4buTIENow60gTWluaCwgVmnhu4d0IE5hbQ!5e0!3m2!1svi!2s!4v1640165685912!5m2!1svi!2s",
+        "time": "Thứ 2 - Chủ nhật: 16:00 - 22:00",
+        "price_range": "500.000 đ - 1.000.000 đ",
+        "special_diet": [
+            "Không có"
+        ],
+        "discount": "Không có",
+        "cmt": [{
+                "user_id": "Cá heo",
+                "rate": 5,
+                "feedback": "Đi ăn sinh nhật ở đây. Nhân viên lịch sự, thân thiện và nhiệt tình nha. Món ăn ngon, nêm nếm vừa miệng nhưng giá khá cao. Không gian hơi bị ok luôn nha. Thích hợp cho tổ chứ tiệc cưới ngoài trời nè."
+            },
+            {
+                "user_id": "Cá voi",
+                "rate": 4,
+                "feedback": "Không gian đẹp, đồ ăn ngon, view hồ bán nguyệt, hải sản đủ tôm, cua, hàu, điểm trừ duy nhất là nước uống ít"
+            }
+        ]
+    },
+    {
+        "id": "14",
+        "name": "Laang",
+        "short_description": "Menu Việt – Á với các món ăn đặc trưng nhưng đầy sáng tạo từ. Bên cạnh đó, nhà hàng cũng phục vụ món chay dành cho những khách hàng có nhu cầu ăn chay.",
+        "description": [
+            "Giữa guồng quay của phố thị hiện đại, mọi thứ trông có vẻ tiện lợi và phát triển hơn về mọi mặt. Tuy nhiên, chúng ta đang ngày càng bỏ qua chất lượng cuộc sống: ít tận hưởng và ít quan tâm đến sức khỏe của bản thân mình hơn.",
+            "Hiểu được điều đó, chúng tôi xây dựng thương hiệu Nhà hàng Laang nhằm giúp mọi người kết nối một cách thiết thực những giá trị cuộc sống thông qua những món ăn tốt cho sức khỏe và bầu không khí truyền cảm hứng. Chữ Laang được lấy cảm hứng từ khái niệm “Lặng Yên” với khát khao tìm kiếm sự yên bình, tĩnh lặng trong tâm hồn của mỗi con người.",
+            "Laang giới thiệu đến khách hàng menu Việt – Á với các món ăn đặc trưng nhưng đầy sáng tạo từ những bếp trưởng có tay nghề cao. Bên cạnh đó, nhà hàng Laang cũng phục vụ món chay dành cho những khách hàng có nhu cầu ăn chay. Laang đặc biệt chú trọng vào nguồn nguyên vật liệu cao cấp, nuôi trồng tự nhiên nhằm bảo vệ sức khỏe và tôn vinh giá trị của người lao động.",
+            "Tọa lạc ngay tại trung tâm Thảo Điền, Nhà hàng Laang lại chọn cho mình một vị trí khá yên tĩnh và kín đáo trên con đường Đặng Hữu Phổ. Nơi đây sẽ là điểm đến lý tưởng cho những gia đình, công ty, nhóm bạn bao gồm cả người Việt Nam lẫn Nước Ngoài.",
+            "Chúng tôi rất vui được đón tiếp bạn tại Laang."
+        ],
+        "image": [
+            "../images/Laang/Laang1.png",
+            "../images/Laang/Laang2.png"
+        ],
+        "menu": [
+            "https://laangsaigon.com/wp-content/uploads/2021/05/20042021-LAANG-A3-smallsize.pdf"
+        ],
+        "best_dishes": [
+            "Vịt xông khói trà xanh gạo lứt trộn",
+            "Súp bí đỏ hầm gà và hạt sen",
+            "Chuối chiên sốt socola"
+        ],
+        "link": "https://laangsaigon.com/vi/c-u-chuyen-cua-laang/",
+        "category": [
+            "Văn hóa ẩm thực",
+            "Tinh hoa Việt Nam",
+            "Điểm nhấn quận mình",
+            "Kiểu Việt"
+        ],
+        "address": [
+            "22 Đặng Hữu Phổ, Thảo Điền, Quận 2, Thành phố Hồ Chí Minh"
+        ],
+        "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.1058061449403!2d106.73419851535249!3d10.803207792303365!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752610b40c39eb%3A0xf1ae3b7da500f8fc!2zMjIgxJDhurduZyBI4buvdSBQaOG7lSwgVGjhuqNvIMSQaeG7gW4sIFF14bqtbiAyLCBUaMOgbmggcGjhu5EgSOG7kyBDaMOtIE1pbmgsIFZp4buHdCBOYW0!5e0!3m2!1svi!2s!4v1640165742066!5m2!1svi!2s",
+        "time": "Thứ 2 - Chủ nhật: 07:00 - 23:00",
+        "price_range": "200.000đ - 500.000đ",
+        "special_diet": [
+            "Thức ăn chay"
+        ],
+        "discount": "Không có",
+        "cmt": [{
+                "user_id": "Songoku",
+                "rate": 5,
+                "feedback": "Một trưa cuối tuần bình yên, không công việc, không deadline quả là lý tưởng đúng không nào? Rủ rê gia đình cùng nhau tận hưởng cuối tuần đúng nghĩa với bữa ăn bổ dưỡng, bồi bổ tinh thần cho cả nhà ngay thôi."
+            },
+            {
+                "user_id": "Beerus",
+                "rate": 5,
+                "feedback": "Thức ăn ngon mang phong cách Á. Không gian ấm cúng, sang trọng. Thái độ nhân viên dễ thương. Ngày 1.6, con mình còn được tặng kẹo Chocolate và chai nước mini vô cùng dễ thương. Cảm ơn Laang, sẽ ghé quán thường xuyên!!"
+            }
+        ]
+    },
+    {
+        "id": "15",
+        "name": "Opus SaiGon",
+        "short_description": "Không gian tiệc độc đáo và riêng tư, lấy cảm hứng từ sự kết hợp tinh tế của nhiều giai đoạn nghệ thuật và văn hóa của Việt Nam",
+        "description": [
+            "Opus mời bạn trải nghiệm không gian tiệc độc đáo và riêng tư giữa lòng Sài Gòn, nơi lấy cảm hứng từ sự kết hợp tinh tế của nhiều giai đoạn nghệ thuật và văn hóa Việt Nam.",
+            "Với sự kết hợp của hương vị tinh tế, mùi hương thanh thoát, đa dạng phong phú, những bản nhạc bất hủ và không gian độc đáo, Opus tạo ra bản hòa âm của những giác quan, một kiệt tác sống động cho những bữa tiệc riêng tư ấn tượng và các sự kiện giao lưu quan trọng."
+        ],
+        "image": [
+            "../images/OpusSaiGon/OpusSaiGon1.png",
+            "../images/OpusSaiGon/OpusSaiGon2.png"
+        ],
+        "menu": [
+            "https://opussaigon.com.vn/uploads/Private-Dining/OPUS_SETMENU_120620.pdf"
+        ],
+        "best_dishes": [
+            "Nem củ ấu kiểu Opus - gỏi xoài xanh",
+            "Tào phớ đường phèn",
+            "Bò Wagyu nướng cháy rượu Armagnac",
+            "Vẹm Newzeland đút lò - xà lách rong biển"
+        ],
+        "link": "https://opussaigon.com.vn/",
+        "category": [
+            "Văn hóa ẩm thực",
+            "Tinh hoa Việt Nam",
+            "Điểm nhấn quận mình",
+            "Kiểu Việt"
+        ],
+        "address": [
+            "12 Phan Kế Bính, P. Đa Kao, Quận 1,TP. Hồ Chí Minh, Việt Nam"
+        ],
+        "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.2696921223637!2d106.69669761535235!3d10.79064439231185!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317528cabdbae89d%3A0x11165274e0155fcc!2zMTIgUGhhbiBL4bq_IELDrW5oLCDEkGEgS2FvLCBRdeG6rW4gMSwgVGjDoG5oIHBo4buRIEjhu5MgQ2jDrSBNaW5oLCBWaeG7h3QgTmFt!5e0!3m2!1svi!2s!4v1640165784519!5m2!1svi!2s",
+        "time": "Thứ 2 - Chủ nhật: sáng: 11:30 - 13:30, chiều: 17:30 - 22:00",
+        "price_range": "100.000đ - 900.000đ",
+        "special_diet": [
+            "Không có"
+        ],
+        "discount": "Không có",
+        "cmt": [{
+                "user_id": "HTML",
+                "rate": 4,
+                "feedback": "Nhà hàng có không gian sang trọng. Mình liên hệ đặt bàn trước 2 ngày, tuy nhiên khi đến lễ tân check lại không có tên mình, sau đó quản lý đến và sắp xếp cho mình một phòng riêng theo yêu cầu trước đó. Bạn quản lý nhiệt, hỗ trợ mình order trước. Mình chọn một set menu 1, và 3 món trong menu A la carte và 2 ly Sparkling"
+            },
+            {
+                "user_id": "CSS",
+                "rate": 4,
+                "feedback": "Một điều mình hơi bất ngờ, đó là các món ăn rất ít so với các nhà hàng  u khác mình đã từng ăn. Tổng thể món ăn tương đối tạm ổn, bù lại phòng riêng rộng rãi, lãng mạn, điều này có thể là lý do để mình quay lại nhà hàng này. Khi đến món tráng miệng nhân viên đến hỏi ý mình muốn nghe nhạc không, nhà hàng có***sĩ tặng 3 bài hát. Mình thích sự riêng tư nên không sử dụng dịch vụ tặng kèm đó. Tổng till 4tr188 cho 2 người, bao gồm 10%VAT và 5%phí phục vụ"
+            }
+        ]
+    },
+    {
+        "id": "16",
+        "name": "Hội An Sense",
+        "short_description": "Menu Việt – Á với các món ăn đặc trưng đầy sáng tạo từ. Nhà hàng phục vụ món chay dành cho khách hàng có nhu cầu ăn chay",
+        "description": [
+            "Trong suốt hơn 20 năm qua, nhà hàng Hội An luôn có được sự công nhận từ du khách quốc tế về giá trị ẩm thực tuyệt hảo cùng nội thất mang đậm dấu ấn văn hóa Việt. Đi vào hoạt động từ năm 1998 cho đến nay, nhà hàng Hội An tọa lạc tại 11 Lê Thánh Tôn, quận 1 nay đã chính thức đổi tên thành nhà hàng Hội An Sense mang các dấu ấn riêng biệt mà không nơi nào có được, Nhà hàng Hội An (nay là Hội An Sense) đã luôn không ngừng cố gắng và nỗ lực để đạt được nhiều thành tựu và thật sự là một viên ngọc quý giữa lòng Sài Gòn náo nhiệt."
+        ],
+        "image": [
+            "../images/HoiAnSense/HoiAnSense1.jpg",
+            "../images/HoiAnSense/HoiAnSense2.jpg"
+        ],
+        "menu": [
+            "https://hoiansense.com.vn/wp-content/uploads/2020/01/HAS_SET_MENU_25102019.pdf"
+        ],
+        "best_dishes": [
+            "Tôm càng hấp tỏi",
+            "Cơm hấp lá sen",
+            "Cua lột chiên xốt tắc muối”, “Bò xào Hội An",
+            "Bánh quai vạc nhân tôm và sò điệp",
+            "Cơm hến Vĩ Dạ",
+            "Gỏi mít trộn hến cùng thịt bằm sốt bánh tráng"
+        ],
+        "link": "https://hoiansense.com.vn/vi/trang-chu/",
+        "category": [
+            "Văn hóa ẩm thực",
+            "Tinh hoa Việt Nam",
+            "Điểm nhấn quận mình",
+            "Kiểu Việt"
+        ],
+        "address": [
+            "Tầng thượng tòa nhà Opus Sài Gòn, 12 Phan Kế Bính Phường Đa Kao, Quận 1"
+        ],
+        "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.269692122363!2d106.69669761477886!3d10.790644392311892!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752944b5042b73%3A0x3ac04f3a201c4c1c!2sH%E1%BB%99i%20An%20Sense%20Restaurant!5e0!3m2!1svi!2s!4v1640165232753!5m2!1svi!2s",
+        "time": "Thứ 2 - Chủ Nhật: 5:00 pm - 11:00 pm",
+        "price_range": "227.273 ₫ - 454.545 ₫",
+        "special_diet": [
+            "Phù hợp với người ăn chay",
+            "Tùy chọn ăn chay",
+            "Tùy chọn đồ ăn không có gluten"
+        ],
+        "discount": "",
+        "cmt": [{
+                "user_id": "Hihi",
+                "rate": 5,
+                "feedback": "Đồ ăn ngon, phục vụ hơi lâu xíu. Nhà hàng ở chỗ hơi khó bắt taxi. Nhưng món thì ngon, mỗi tối có mấy chị đẹp lên múa và chơi nhạc cụ dân tộc rất hay!"
+            },
+            {
+                "user_id": "Tata",
+                "rate": 5,
+                "feedback": "Đồ ăn rất ngon, không gian đẹp, ấm cúng. Sẽ quay lại lần hai!"
+            }
+        ]
+    },
+    {
+        "id": "17",
+        "name": "TOWA Japanese Cuisine",
+        "short_description": "Dưới bàn tay của các đầu bếp chuyên nghiệp, những món ăn thanh lịch, chính hiệu sẽ được chế biến và sắp xếp một cách tinh xảo",
+        "description": [
+            "Độc đáo, khó quên và đầy trải nghiệm, TOWA - với nghĩa “cuộc sống vĩnh hằng” trong tiếng Nhật, là cái tên thể hiện mong muốn của chúng tôi trong việc tái tạo và mang đến cho thực khách những món ngon ẩm thực vượt thời gian của đất nước mặt trời mọc.",
+            "Đối với chúng tôi, đánh giá cao nghệ thuật ẩm thực không chỉ đơn thuần là có một món ăn, mà còn là một hành trình tương tác. Bắt đầu từ những nguyên liệu tinh khiết và tốt nhất, các loại hải sản cao cấp của TOWA hầu hết đến từ khu chợ nổi tiếng Toyosu ở Tokyo. Bên cạnh đó, một số loài cá theo mùa được lựa chọn cẩn thận từ chợ hải sản Hokkaido và Vịnh Nagasaki. Đặc biệt hơn, cá ngừ vây xanh được nhập khẩu từ Kochi - thành phố nổi tiếng với rượu vang và các sản phẩm cá tuyệt hảo."
+        ],
+        "image": [
+            "../images/TOWA/TOWA1.jpg",
+            "../images/TOWA/TOWA2.jpg"
+        ],
+        "menu": [
+            "https://drive.google.com/file/d/10nIdaatV_VLHShzV66O3mEZLrplFVwbv/view?usp=sharing"
+        ],
+        "best_dishes": [
+            "Mì lạnh Soba",
+            "Gà Teriyaki",
+            "Mì Udon bò”, “Sandwich bò Wagyu",
+            "Chân gà Katsu",
+            "Cơm cá hồi"
+        ],
+        "link": "https://towavn.com/#signature",
+        "category": [
+            "Văn hóa ẩm thực",
+            "Điểm nhấn quận mình",
+            "Ưu đãi",
+            "Kiểu Nhật"
+        ],
+        "address": [
+            "Tầng 28 92-94 Nam Kì Khởi Nghĩa Saigon Centre, Phường Bến Nghé, Quận 1"
+        ],
+        "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.497089167162!2d106.69873071477875!3d10.773188292323743!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752f93fed80459%3A0x8b3eb7a461330b6b!2sTowa%20-%20Sushi%20Bar%20%26%20Lounge!5e0!3m2!1svi!2s!4v1640165367027!5m2!1svi!2s",
+        "time": "Thứ 2 – Chủ Nhật: 6:00pm - 10:30pm",
+        "price_range": "300.000 ₫ - 1.500.000 ₫",
+        "special_diet": [
+            "Phù hợp với người ăn chay”, “Tùy chọn ăn chay”, “Tùy chọn đồ ăn không có gluten"
+        ],
+        "discount": "Giảm giá 5% cho combo",
+        "cmt": [{
+                "user_id": "Cooky",
+                "rate": 5,
+                "feedback": "Hôm nay mình đi ăn ở Towa, nhân viên thật sự siêu thân thiện, đồ ăn ngon nhất là món tôm hùm sốt, nêm gia vị rất đậm đà, các món còn lại đều rất ngon"
+            },
+            {
+                "user_id": "Shooky",
+                "rate": 5,
+                "feedback": "Nhà hàng view đẹp, không khí lãng mạn. Thức ăn ngon và phục vụ chuyên nghiệp, chu đáo. "
+            }
+        ]
+    },
+    {
+        "id": "18",
+        "name": "Pastamania",
+        "short_description": "Món ăn Ý đảm bảo độ tươi ngon và hương vị, đặc biệt, các loại sốt dùng cho pasta và pizza đều được nhập khẩu trực tiếp từ Ý",
+        "description": [
+            "Với mô hình “Casual Dining”, thực khách sẽ được trải nghiệm những món ăn Ý với giá cả hợp lý. Tại PastaMania, tất các món ăn đều được bắt đầu chế biến ngay sau khi khách hàng gọi món, điều này giúp chúng tôi luôn duy trì và đảm bảo được độ tươi ngon cũng như hương vị của từng món ăn. Đặc biệt, các loại sốt dùng cho pasta và pizza đều được nhập khẩu trực tiếp từ Ý – Commonwealth Capital Pte Ltd (CCPL). Cà chua dùng làm sốt cà được chính CCPL trồng và sản xuất theo công thức “độc quyền” tại thành phố Parma của Ý. Trước khi được đưa đến nơi tiêu dùng, các loại sốt đều phải trải qua quy trình kiểm tra chuyên sâu chặt chẽ, để luôn đảm bảo được chất lượng tốt nhất."
+        ],
+        "image": [
+            "../images/Pastamania/Pastamania1.jpg",
+            "../images/Pastamania/Pastamania2.jpg"
+        ],
+        "menu": [
+            "https://drive.google.com/file/d/1nMOA7RCROYpCjQlQv_cPAlllY8DIoI3J/view?usp=sharing"
+        ],
+        "best_dishes": [
+            "Bánh mì pizza tỏi",
+            "Mỳ Ý sốt kem",
+            "Mỳ Ý sốt cà",
+            "Pizza thịt bò",
+            "Pizza hạt choco",
+            "Kiểu Âu"
+        ],
+        "link": "https://www.facebook.com/PastaManiaVietnam/",
+        "category": [
+            "Kiểu Ý",
+            "Văn hóa ẩm thực",
+            "Điểm nhấn quận mình",
+            "Ưu đãi"
+        ],
+        "address": [
+            "Tầng 4 Phase 2 TTTM Crescent Mall,  101 Tôn Dật Tiên, Quận 7",
+            "Tầng 5 SC VivoCity, 1058 Nguyễn Văn Linh, Quận 7"
+        ],
+        "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.5235086466673!2d106.66751101477875!3d10.771158392325113!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752edddadd1b43%3A0xa83610381a80836f!2sPastaMania!5e0!3m2!1svi!2s!4v1640165423018!5m2!1svi!2s",
+        "time": "Thứ 2 – Chủ Nhật: 11:00am - 21:0pm",
+        "price_range": "55.000 ₫ - 350.000 ₫",
+        "special_diet": [
+            "Không có"
+        ],
+        "discount": "Giảm giá 10% hóa đơn trên 250.000đ",
+        "cmt": [{
+                "user_id": "Mang",
+                "rate": 5,
+                "feedback": "1 quán tuyệt vời cho ai thích pasta, menu rất phong phú đầy đủ các loại mì từ hải sản tomyum đến thịt xông khói , đặc biệt khi order món ăn xong thì phục vụ mang lại 5 loại pasta để chọn, nước uống cũng có nhiều loại tìm được món cokes bỏ kem floating phía trên"
+            },
+            {
+                "user_id": "RJ",
+                "rate": 4,
+                "feedback": "Tôi và bạn bè đến thăm nơi này vào giờ ăn trưa. Chúng tôi đã gọi combo 95.000 vnd. Nó chỉ đủ cho tôi, nhưng bạn bè của tôi vẫn cảm thấy đói. Các nhân viên rất thân thiện và trang trí là tốt đẹp. Thức ăn cũng ngon"
+            }
+        ]
+    },
+    {
+        "id": "19",
+        "name": "SanFuLou",
+        "short_description": "“Ngon lành, bổ dưỡng, an toàn vệ sinh” – là ba điều phúc lành muốn gửi đến thực khách, phong cách ẩm thực độc đáo và hiện đại",
+        "description": [
+            "Ngon lành, bổ dưỡng, an toàn vệ sinh” – là ba điều phúc lành của San Fu Lou muốn gửi đến thực khách. Kiến trúc của San Fu Lou – ngôi nhà ba phước lành là sự kết hợp hoàn hảo giữa lối thiết kế đương đại pha trộn cùng màu sắc và chất liệu của một ngôi nhà truyền thống Quảng Đông. Những đường nét tươi mới giao thoa cùng những họa tiết truyền thống châu Á, làm bật lên sự tinh tế trong thiết kế không gian ẩm thực hiện đại giữa lòng thành phố nhộn nhịp nhất Việt Nam. Điểm nhấn quan trọng nhất tạo nên sự khác biệt của thương hiệu San Fu Lou chính là phong cách ẩm thực độc đáo và hiện đại. Các loại gia vị được kết hợp vừa phải, nguyên liệu được lựa chọn cẩn thận, đảm bảo tươi ngon và an toàn đến với thực khách."
+        ],
+        "image": [
+            "../images/SanFuLou/SanFuLou1.jpg",
+            "../images/SanFuLou/SanFuLou2.jpg"
+        ],
+        "menu": [
+            "https://drive.google.com/file/d/1eA_CsthxIRVizdsr2RtiYAIl280fU8US/view?usp=sharing"
+        ],
+        "best_dishes": [
+            "Cà tím gà xé sốt giấm ớt",
+            "Bí đỏ chiên muối ớt",
+            "Hoành thánh chiên giòn với giấm chua ngọt",
+            "Đậu hũ hoàng kim",
+            "Bắp bò kiểu Quảng Đông",
+            "Tai heo sốt trứ danh SanFuLou",
+            "Súp vi cá tiềm hải vị"
+        ],
+        "link": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.4341019727353!2d106.69985311477895!3d10.778026292320446!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752fd4427a955d%3A0xe510dc79fd45192a!2sSan%20Fu%20Lou%20-%20Cantonese%20Kitchen%20(Vincom%20%C4%90%E1%BB%93ng%20Kh%E1%BB%9Fi)!5e0!3m2!1svi!2s!4v1640165526235!5m2!1svi!2s",
+        "category": [
+            "Văn hóa ẩm thực",
+            "Điểm nhấn quận mình",
+            "Kiểu Trung"
+        ],
+        "address": [
+            "18A Trường Sơn, Phường 2, Quận Tân Bình",
+            "1 Quang Trung, Phường 3, Quận Gò Vấp",
+            "Tầng trệt, TTTM RomeA, 117 Nguyễn Đình Chiểu, Quận 3",
+            "195-197 Phan Xích Long, Quận Phú Nhuận"
+        ],
+        "map": "https://goo.gl/maps/d5EVKtCgXo4NWBvP7",
+        "time": "Thứ 2 – Chủ Nhật: 10:00 – 22:00",
+        "price_range": "100.000 ₫ - 500.000 ₫",
+        "special_diet": [
+            "Tùy chọn ăn chay”, “Phù hợp với người ăn chay"
+        ],
+        "discount": "",
+        "cmt": [{
+                "user_id": "Koya",
+                "rate": 4,
+                "feedback": "Rất thích các món Dimsum, không gian không lạ nhưng thoải mái. thực đơn bắt mắt, nhân viên có mấy bạn rất dễ thương."
+            },
+            {
+                "user_id": "Doraemon",
+                "rate": 5,
+                "feedback": "Hôm nay, mình có ghé ăn Sanfulou ở chi nhánh Phan Xích Long, đồ ăn ở đây rất hợp khẩu vị của mình, không gian đậm chất Trung Hoa,và nhân viên cực dễ thương và nhiệt tình. Mọi người nên ghé để thưởng thức và cảm nhận không gian ở đây nha"
+            }
+        ]
+    },
+    {
+        "id": "20",
+        "name": "Le Resto",
+        "short_description": "Món ăn và thức uống được chế biến từ nguồn nguyên liệu tươi ngon và được chọn lựa kỹ càng bởi các đầu bếp về món Pháp",
+        "description": [
+            "Nhà hàng Pháp Le Resto nằm trên con đường Cao Thắng nhộn nhịp, là điểm đến yêu thích của những thực khách say mê ẩm thực Pháp. Cách bài trí sang trọng bên ánh đèn vàng ấm áp như tăng thêm vẻ lãng mạn và tạo một không gian riêng nhất định làm say lòng bất cứ ai ngay lần đầu tiên đến với quán. Menu món ăn phong phú và đa dạng. Tất cả các món ăn và thức uống đều được chế biến từ nguồn nguyên liệu tươi ngon nhất và được chọn lựa kỹ càng bởi các đầu bếp nhiều kinh nghiệm về món Pháp."
+        ],
+        "image": [
+            "../images/LeResto/LeResto1.jpg",
+            "../images/LeResto/LeResto2.jpg"
+        ],
+        "menu": [
+            "https://www.leresto.vn/menu.html"
+        ],
+        "best_dishes": [
+            "Chả giò tôm phô mai",
+            "Sò điệp đút lò",
+            "Vẹm nướng bơ tỏi kiểu Pháp",
+            "Sườn cừu nướng bơ & tỏi",
+            "Cừu sốt rượu vang",
+            "Bắp cừu hầm mỡ ngỗng đút lò",
+            "Bò phi lê sốt tiêu xanh",
+            "Đùi gà nướng sốt rượu vang"
+        ],
+        "link": "https://www.leresto.vn/",
+        "category": [
+            "Văn hóa ẩm thực",
+            "Điểm nhấn quận mình",
+            "Kiểu Âu"
+        ],
+        "address": [
+            "357 Hoàng Sa, Phường Tân Định,  Quận 1"
+        ],
+        "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.227157068131!2d106.68401901477895!3d10.793906492309697!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317529045cac0e47%3A0xfd07725f22b40d85!2zTEVSRVNUTyAtIE3Ds24gUGjDoXAgR2nDoSBWaeG7h3Q!5e0!3m2!1svi!2s!4v1640165563931!5m2!1svi!2s",
+        "time": "Thứ 2 – Chủ Nhật: 10:00 – 22:00",
+        "price_range": "272.727 ₫ - 909.091 ₫",
+        "special_diet": [
+            "Tùy chọn ăn chay”, “Phù hợp với người ăn chay"
+        ],
+        "discount": "",
+        "cmt": [{
+                "user_id": "TaeTae",
+                "rate": 5,
+                "feedback": "Thức ăn rất ngon, nhân viên cực thân thiện. Rượu vang cũng rất hợp với thức ăn. Sẽ quay lại!"
+            },
+            {
+                "user_id": "Xuka",
+                "rate": 5,
+                "feedback": "Mọi thứ đều tuyệt vời, từ đồ ăn đến không gian quá, rất đáng để ghé đó mọi người ơi!"
+            }
+        ]
+    }
+]
