@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/bookingHeaderStyle.css">
+    <script src="../js/angular.min.js"></script>
+    <script>
+        let urlparams = new URLSearchParams(location.search);
+        var id = urlparams.get('restaurantId');
+    </script>
+    <script>
+        let app = angular.module("angularApp", []);
+        app.controller("DetailController", function($scope, $http) {
+            $http({
+                method: "GET",
+                url: "../data/restaurants.json"
+            }).then(
+                function success(response) {
+                    $scope.selectedRestaurant = response.data.find(function(value) {
+                        return value.ID == id;
+                    })
+                },
+                function error(response) {
+                    $scope.error = response.statusText;
+                })
+        })
+    </script>
+</head>
+
+<body ng-app="angularApp" ng-controller="DetailController">
+    <div class="header-container">
+        <div class="restaurant-info">
+            <img class="restaurant-image" src="{{selectedRestaurant.image[0]}}">
+            <h3>{{selectedRestaurant.name}}</h3>
+            <p class="opening-hours">Giờ mở cửa: <span>{{selectedRestaurant.time}}</span></p>
+        </div>
+    </div>
+</body>
+
+</html>

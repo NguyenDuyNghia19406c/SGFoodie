@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="shortcut icon" type="image/jpg" href="../images/SGFoodie_LOGO1.png" />
+    <style>
+        @font-face {
+            font-family: NotoSans;
+            src: url(../data/font/Noto_Sans/NotoSans-Regular.ttf);
+        }
+        
+        html,
+        body {
+            margin: 0px;
+            padding: 0px;
+        }
+        
+        body {
+            background-color: #f3f3f3;
+        }
+        
+        .profile-container {
+            padding-top: 10%;
+            display: flex;
+            justify-content: center;
+        }
+        
+        .side-bar {
+            flex-basis: calc(100%/6);
+            margin-right: 15px;
+        }
+        
+        .content {
+            flex-basis: calc(3*100%/6);
+        }
+        
+        #myIframe {
+            border: 1px solid #C4C4C4;
+            width: 100%;
+            min-height: 50vh;
+        }
+        
+        #selected-item {
+            color: #D50805;
+            font-weight: bold;
+        }
+        
+        #unselected-item {
+            color: black;
+            font-weight: normal;
+        }
+        
+        @media screen and (max-width:768px) {
+            .profile-container {
+                padding-top: 15%;
+                flex-wrap: wrap;
+                flex-direction: column-reverse;
+            }
+            #myIframe {
+                min-height: 80vh;
+            }
+        }
+    </style>
+
+    <script src="https://www.w3schools.com/lib/w3.js"></script>
+
+</head>
+
+<body>
+    <div class="navBar" w3-include-html="headerAccount.html"></div>
+
+    <div class="profile-container">
+        <div class="side-bar">
+            <div w3-include-html="left-menu_account.html"></div>
+        </div>
+        <div class="content">
+            <iframe id="myIframe" name="myIframe" src="accountSettings.html" frameborder="0"></iframe>
+        </div>
+    </div>
+    <script>
+        var currentSelectedItem;
+
+        function getBold(element) {
+            if (element != currentSelectedItem) {
+                if (currentSelectedItem) {
+                    currentSelectedItem.id = 'unselected-item';
+                }
+                currentSelectedItem = element;
+                element.id = 'selected-item';
+            }
+        }
+    </script>
+    <script>
+        w3.includeHTML()
+    </script>
+</body>
+
+</html>

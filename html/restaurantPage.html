@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant</title>
+    <link rel="stylesheet" href="../css/RestaurantStyle.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel='stylesheet prefetch' href='https://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" type="image/jpg" href="../images/SGFoodie_LOGO1.png" />
+    <script src="../js/angular.min.js"></script>
+    <script src="https://www.w3schools.com/lib/w3.js"></script>
+    <script>
+        function get_value(...params) {
+            var adults = document.getElementById(params[0]);
+            var childrens = document.getElementById(params[1]);
+
+            document.getElementById(params[2]).value = adults[adults.selectedIndex].value + ' người lớn, ' + childrens[childrens.selectedIndex].value + ' trẻ em';
+
+        }
+
+        function toggle_visibility(id) {
+            var e = document.getElementById(id);
+            if (e.style.display == 'block')
+                e.style.display = 'none';
+            else
+                e.style.display = 'block';
+        }
+    </script>
+
+    <script>
+        let urlparams = new URLSearchParams(location.search);
+        var id = urlparams.get('restaurantId');
+    </script>
+
+    <script>
+        let app = angular.module("angularApp", []);
+        app.controller("DetailController", function($scope, $http, $sce) {
+            $http({
+                method: "GET",
+                url: "../data/restaurants.json"
+            }).then(
+                function success(response) {
+                    $scope.selectedRes = response.data.find(value => value.id == id);
+
+                    $scope.cmtList = $scope.selectedRes.cmt;
+
+                    $scope.resList = response.data;
+
+                    // trust src to render map
+                    $scope.trustSrc = function(src) {
+                        return $sce.trustAsResourceUrl(src);
+                    }
+                },
+                function error(response) {
+                    $scope.error = response.statusText;
+                })
+        })
+    </script>
+</head>
+
+<body ng-app="angularApp" ng-controller="DetailController">
+    <div w3-include-html="header.html"></div>
+    <div class="container">
+        <div class="search-container">
+            <div class="searchbar-box">
+                <i class="material-icons" style="font-size: 50px;">search</i>
+                <input type="text" class="search-box" placeholder="Tìm địa điểm nhà hàng, món ăn...">
+            </div>
+        </div>
+        <div class="mainStyle-container">
+            <div class="infor-container">
+                <div class="restaurant-information">
+                    <img src="{{selectedRes.image[1]}}" alt="{{selectedRes.name}}" class="restaurant-image">
+                    <p class="restaurant-name">{{selectedRes.name}}</p>
+                </div>
+                <div class="booking-check">
+                    <div class="search-item">
+                        <input type="text" name="" id="number-of-cus" placeholder="2 người lớn" class="box-checking" readonly>
+                        <img class="icon" src="../data/icon/user.svg" alt="" onclick="toggle_visibility('dropdown')">
+                        <div id="dropdown" class="cus-dropdown cus-flex">
+                            <div class="input-group">
+                                <label for="adults" class="maxwidth-option">Người lớn</label>
+                                <select id="adults" onchange="get_value('adults', 'childrens', 'number-of-cus')" class="cus-option">
+                                <option value="0">0</option>
+                                  <option value="1">1</option>
+                                  <option value="2">2</option>
+                                  <option value="3">3</option>
+                                  <option value="4">4</option>
+                                  <option value="5">5</option>
+                            </select>
+                            </div>
+                            <div class="input-group">
+                                <label for="childrens" class="maxwidth-option">Trẻ em</label>
+                                <select id="childrens" onchange="get_value('adults', 'childrens', 'number-of-cus')" class="cus-option">
+                                <option value="0">0</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                            </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <input type="date" class="box-checking date-adjust">
+                    </div>
+                    <div>
+                        <input type="time" class="box-checking time-adjust">
+                    </div>
+
+                    <a class="booknow-button" href='bookingPage1.html?id={{selectedRes.id}}'>Đặt ngay</a>
+
+                </div>
+                <div class="detailed-container">
+                    <div class="detailed-column">
+                        <div class="detailed-row">
+                            <p class="detailed-title">Món ăn</p>
+                            <p class="detailed-content">{{selectedRes.style}}</p>
+                        </div>
+                        <div class="detailed-row">
+                            <p class="detailed-title">Thực đơn</p>
+                            <a href="{{selectedRes.menu}}" target="_blank"><button class="menu-button">Xem thực đơn</button></a>
+                        </div>
+                        <div class="detailed-row">
+                            <p class="detailed-title">Giờ mở cửa</p>
+                            <p class="detailed-content">{{selectedRes.time}}</p>
+                        </div>
+                        <div class="detailed-row">
+                            <p class="detailed-title">Khoảng giá</p>
+                            <p class="detailed-content">{{selectedRes.price_range}}</p>
+                        </div>
+                        <div class="detailed-row">
+                            <p class="detailed-title">Chế độ ăn đặc biệt</p>
+                            <p class="detailed-content">{{selectedRes.special_diet.join(', ')}}</p>
+                        </div>
+                    </div>
+                    <div class="detailed-column">
+                        <div class="detailed-row">
+                            <p class="detailed-title">Địa chỉ</p>
+                            <ul class="detailed-content">
+                                <li ng-repeat="address in  selectedRes.address">{{address}}</li>
+                            </ul>
+                        </div>
+                        <div id="map" class="detailed-map">
+                            <iframe ng-src="{{trustSrc(selectedRes.map)}}" width="380" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                        </div>
+                    </div>
+                </div>
+                <hr class="line">
+                <div class="introduce-restaurent">
+                    <p class="introduce-title">GIỚI THIỆU</p>
+                    <ul class="ul_content">
+                        <li ng-repeat="p in selectedRes.description">{{p}}</li>
+                    </ul>
+                </div>
+                <div class="introduce-restaurent">
+                    <p class="introduce-title">MÓN ĂN ĐƯỢC YÊU THÍCH</p>
+                    <p>{{selectedRes.best_dishes.join(", ")}}</p>
+                </div>
+                <hr class="line">
+                <div class="introduce-restaurent">
+                    <p class="introduce-title">BÌNH LUẬN</p>
+                    <div class="feedback-container" ng-repeat="user in cmtList">
+                        <div class="user-info">
+                            <p><img src="../data/icon/chimmy.png" alt="User Image" class="user-image"></p>
+                            <p class="user-name">{{user.user_id}}</p>
+                        </div>
+                        <div>
+                            <p class="user-feedback">{{user.feedback}}</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div>
+                    <div class="recommend-container">
+                        <div class="recommend-header">
+                            <p class="recommend-title"> Có thể bạn thích</p>
+                        </div>
+                        <div class="recommend-inside-container" ng-repeat="res in resList | limitTo: 5" ng-if="res.id != selectedRes.id">
+                            <img src="{{res.image[0]}}" alt="{{res.name}}" class="small-image">
+                            <a class="recommend-name" href="restaurantPage.html?restaurantId={{res.id}}" target="_blank">
+                                <p>{{res.name}}</p>
+                            </a>
+                            <p class="recommend-content">{{res.short_description}}</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div w3-include-html="footer.html"></div>
+    <script>
+        w3.includeHTML()
+    </script>
+</body>
+
+</html>

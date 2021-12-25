@@ -1,0 +1,51 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+@import url("root.css");
+body {
+    background-color: #F9F9F9;
+}
+
+.content {
+    padding: 100px 0 40px 0;
+}
+
+.container-aboutus {
+    background: #FFFFFF;
+    width: 60%;
+    margin: 0px auto;
+    padding: 30px 45px;
+    border: 1px solid #AEAEAE;
+    text-align: justify;
+}
+
+
+/* Tablet */
+
+@media screen and (max-width:768px) {
+    .container-aboutus {
+        width: 70%;
+        margin: 50px auto;
+    }
+}
+
+
+/* Mobile */
+
+@media screen and (max-width:480px) {
+    .container-aboutus {
+        width: 80%;
+        padding: 10px;
+        margin: 30px auto;
+    }
+    .container-aboutus h2 {
+        font-size: 15px;
+        text-align: center;
+    }
+    .container-aboutus p {
+        font-size: 12px;
+    }
+}

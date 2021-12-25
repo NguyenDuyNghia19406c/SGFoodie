@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Step 2</title>
+    <script src="https://www.w3schools.com/lib/w3.js"></script>
+    <link rel="stylesheet" href="../css/bookingPageStyle.css">
+    <link rel="stylesheet" href="../css/bookingHeaderStyle.css">
+    <link rel="shortcut icon" type="image/jpg" href="../images/SGFoodie_LOGO1.png" />
+    <script src="../js/angular.min.js"></script>
+    <script>
+        function getUrlParams2() {
+            const params = new URLSearchParams(window.location.search);
+            return params;
+        }
+        var adult = getUrlParams2().get("adult");
+        var children = getUrlParams2().get("child");
+        var date = getUrlParams2().get("booking-date");
+        var time = getUrlParams2().get("booking-time");
+    </script>
+    <script>
+        let urlparams = new URLSearchParams(location.search);
+        var id = urlparams.get('id');
+    </script>
+    <script>
+        let app = angular.module("angularApp", []);
+        app.controller("RestaurantController", function($scope, $http) {
+            $http({
+                method: "GET",
+                url: "../data/restaurants.json"
+            }).then(
+                function success(response) {
+                    $scope.selectedRes = response.data.find(value => value.id == id);
+                },
+                function error(response) {
+                    $scope.error = response.statusText;
+                });
+        })
+    </script>
+</head>
+
+<body ng-app="angularApp" ng-controller="RestaurantController">
+    <div class="booking-container booking-container-flex">
+        <div class="header-container">
+            <div class="restaurant-info">
+                <img class="restaurant-image" src="{{selectedRes.image[0]}}">
+                <h3>{{selectedRes.name}}</h3>
+                <p class="opening-hours">Giờ mở cửa: <span>{{selectedRes.time}}</span></p>
+            </div>
+        </div>
+        <div w3-include-html="bookingProgressBarStep2.html"></div>
+        <script>
+            w3.includeHTML()
+        </script>
+        <div class="form-container">
+            <form action="bookingPage3.html" method="get">
+                <div class="booking-confirm">
+                    <p>Chúng tôi có một bàn cho bạn tại {{selectedRes.name}} cho <span id="number-of-person"></span> người lúc <span id="booking-time"></span>, <span id="booking-date"></span>
+                    </p>
+                </div>
+                <div>
+                    <select class="gender confirm-style" required>
+            <option value="Mr">Ông</option>
+            <option value="Mrs">Bà</option>
+        </select>
+                    <img class="icon" src="../data/icon/user.svg" alt="">
+                </div>
+                <div>
+                    <input type="text" placeholder="Họ và tên" name="fullname" class="confirm-infor confirm-style" required>
+                    <img class="infor-icon" src="../data/icon/user.svg" alt="">
+                </div>
+                <div>
+                    <input type="text" placeholder="Email" name="email" class="confirm-infor confirm-style" required>
+                    <img class="infor-icon" src="../data/icon/email.svg" alt="">
+                </div>
+                <div>
+                    <input type="text" placeholder="Số điện thoại" class="confirm-infor confirm-style" required>
+                    <img class="infor-icon" src="../data/icon/phone.svg" alt="">
+                </div>
+                <div>
+                    <textarea cols="30" rows="2" class="confirm-infor confirm-style-note" placeholder="Ghi chú"></textarea>
+                    <img class="infor-icon-note" src="../data/icon/note.svg" alt="">
+                </div>
+                <!-- <div class="button-flex">
+                    <button class="confirm-button"><a href="bookingPage1.html" class="button-style">Trở lại</a></button>
+                    <input type="submit" value="Tiếp tục" class="confirm-button" style="background-color: #FFCF01;">
+                </div> -->
+                <button class="booking-submit-button"><a href="bookingPage3.html?id={{selectedRes.id}}">Tiếp theo</a></button>
+            </form>
+        </div>
+        <p class="booking-fontsize">© 2021 - Bản quyền của Công Ty Cổ Phần SGFoodie - SGFoodie.vn</p>
+    </div>
+    <script>
+        var ad;
+        switch (adult) {
+            case "1":
+                ad = 1;
+                break;
+            case "2":
+                ad = 2;
+                break;
+            case "3":
+                ad = 3;
+                break;
+            case "4":
+                ad = 4;
+                break;
+            case "5":
+                ad = 5;
+                break;
+        }
+        var ch;
+        switch (children) {
+            case "1":
+                ch = 1;
+                break;
+            case "2":
+                ch = 2;
+                break;
+            case "3":
+                ch = 3;
+                break;
+            case "4":
+                ch = 4;
+                break;
+            case "5":
+                ch = 5;
+                break;
+        }
+        document.getElementById("number-of-person").innerText = ad + ch;
+
+        let d = new Date(date);
+        const days = ["Chủ Nhật", "Thứ hai", "Thứ ba", "Thứ tư", "Thứ năm", "Thứ sáu", "Thứ bảy"];
+        let day = days[d.getDay()];
+        document.getElementById("booking-date").innerText = day + " ngày " + d.getDate() + " tháng " + (d.getMonth() + 1) + " năm " + d.getFullYear();
+
+        document.getElementById("booking-time").innerText = time;
+    </script>
+</body>
+
+</html>
