@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title>Header</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/headerStyle.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+</head>
+
+<body>
+    <nav>
+        <div class="logo">
+            <a href="homePage.html"><img src="../images/SGFoodie_LOGO1.png" alt="Cannot load image"></a>
+        </div>
+        <label for="btn" class="icon-header">
+        <span class="fa fa-bars"></span></label>
+        <input type="checkbox" id="btn">
+        <ul>
+            <li>
+                <a href="categoricalRestaurants.html?category=Nổi bật">Nổi bật</a>
+            </li>
+            <li>
+                <a href="categoricalRestaurants.html?category=Ưu đãi">Ưu đãi</a>
+            </li>
+            <li class="foodList">
+                <label for="btn-1" class="show">Văn hóa ẩm thực</label>
+                <a href="categoricalRestaurants.html?category=Văn hóa ẩm thực">Văn hóa ẩm thực</a>
+                <input type="checkbox" id="btn-1">
+                <ul class="traditionalFoodList">
+                    <li><a href="categoricalRestaurants.html?category=Kiểu Nhật">Kiểu Nhật</a></li>
+                    <li><a href="categoricalRestaurants.html?category=Kiểu Trung">Kiểu Trung</a></li>
+                    <li><a href="categoricalRestaurants.html?category=Kiểu Âu">Kiểu Âu</a></li>
+                    <li><a href="categoricalRestaurants.html?category=Kiểu Hàn">Kiểu Hàn</a></li>
+                </ul>
+            </li>
+            <li><a href="categoricalRestaurants.html?category=Tinh hoa Việt Nam">Tinh hoa Việt Nam</a></li>
+            <li><a href="categoricalRestaurants.html?category=Điểm nhấn quận mình">Điểm nhấn quận mình</a></li>
+            <li>
+                <a href="profilePage.html" class="btnLoginHover">
+                    <img class="userAvatar" src="../images/userAvatar.png">
+                </a>
+                <ul class="avatarBox">
+                    <li><a href="#">Đặt bàn của tôi</a></li>
+                    <li><a href="#">Cài đặt tài khoản</a></li>
+                    <li><a href="#">Đăng xuất</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#" id="language-selection">VN</a>
+            </li>
+            <li>
+                <a href="#" id="language-selection">EN</a>
+            </li>
+        </ul>
+    </nav>
+    <script>
+        $('.icon').click(function() {
+            $('span').toggleClass("cancel");
+        });
+    </script>
+</body>
+
+</html>

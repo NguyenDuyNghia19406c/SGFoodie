@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        @font-face {
+            font-family: NotoSans;
+            src: url(../data/font/Noto_Sans/NotoSans-Regular.ttf);
+        }
+        
+        * {
+            font-family: NotoSans;
+        }
+        
+        html,
+        body {
+            margin: 0px;
+            padding: 0px;
+            background-color: white;
+        }
+        
+        .heading-container {
+            border-bottom: 1px solid #C4C4C4;
+        }
+        
+        .heading2-top-border {
+            border-top: 1px solid #C4C4C4;
+        }
+        
+        #heading1.heading-container {
+            height: 45px;
+        }
+        
+        #heading2.heading-container {
+            height: 25px;
+        }
+        
+        .heading1-text {
+            margin-top: 0px;
+            line-height: 45px;
+        }
+        
+        .heading2-text {
+            margin-top: 0px;
+            line-height: 25px;
+        }
+        /*      .container {
+            margin: 0px;
+        } */
+        
+        .heading1-text,
+        .heading2-text,
+        .upcoming-content,
+        .past-content {
+            padding-left: 10px;
+        }
+        
+        .upcoming-content,
+        .past-content {
+            height: 100px;
+        }
+        /*   .container {
+             max-width: calc(3*100%/6); 
+            padding: 0 20px 20px;
+        } */
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="heading-container" id="heading1">
+            <h2 class="heading1-text">Đặt bàn của tôi</h2>
+        </div>
+        <div class="upcoming-res">
+            <div class="heading-container" id="heading2">
+                <h3 class="heading2-text">Đặt bàn sắp tới</h3>
+            </div>
+            <div class="upcoming-content">Không có hoạt động đặt bàn nào.</div>
+        </div>
+        <div class="past-res">
+            <div class="heading-container heading2-top-border" id="heading2">
+                <h3 class="heading2-text">Lịch sử đặt bàn</h3>
+            </div>
+            <div class="past-content">Không có lịch sử đặt bàn.</div>
+        </div>
+    </div>
+</body>
+
+</html>
