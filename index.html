@@ -30,19 +30,16 @@
                 });
         })
     </script>
-    <script>
-        window.onload = function() {
-            document.getElementByID("autoplay").play();
-        }
-    </script>
+
 
 </head>
 
-<body ng-app="angularApp" ng-controller="RestaurantController" onload>
+<body ng-app="angularApp" ng-controller="RestaurantController">
     <div w3-include-html="header.html "></div>
-    <audio autoplay loop preload="auto">
+    <audio id="my_audio" src="./data/background-music.mp3" loop="loop"></audio>
+    <!-- <audio autoplay loop preload="auto">
         <source src="./data/background-music.mp3 " type="audio/mpeg">
-      </audio>
+      </audio> -->
     <div class="carousel-container">
         <a class="slick-arrow slick-prev">
             <i class="fas fa-angle-left"></i>
@@ -158,6 +155,11 @@
     <div w3-include-html="footer.html "></div>
     <script>
         w3.includeHTML()
+    </script>
+    <script>
+        window.onload = function() {
+            document.getElementById("my_audio").play();
+        }
     </script>
 </body>
 

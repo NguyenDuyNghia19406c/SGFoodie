@@ -5,6 +5,10 @@
     position: relative;
 }
 
+.title h1 {
+    margin-top: 0px;
+}
+
 .user-name {
     justify-content: space-evenly;
 }
@@ -36,6 +40,6 @@
 }
 
 #btn {
-    background-color: var(--main-color-2);
-    color: black;
+    background-color: var(--main-color-red);
+    color: white;
 }
