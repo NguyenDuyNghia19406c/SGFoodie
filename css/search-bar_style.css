@@ -184,3 +184,9 @@
 .i-icon {
     cursor: pointer;
 }
+
+@media screen and (max-width:480px) {
+    .icon-user {
+        margin-right: -20px;
+    }
+}

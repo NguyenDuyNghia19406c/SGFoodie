@@ -3,6 +3,15 @@
     --main-color-2: #FFBD59;
 } */
 
+@font-face {
+    font-family: NotoSans;
+    src: url(../data/font/Noto_Sans/NotoSans-Regular.ttf);
+}
+
+* {
+    font-family: NotoSans;
+}
+
 @import url("root.css");
 body {
     background-color: var(--main-color-white-background);

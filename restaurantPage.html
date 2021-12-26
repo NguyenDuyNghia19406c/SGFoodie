@@ -120,7 +120,7 @@
                     <div class="detailed-column">
                         <div class="detailed-row">
                             <p class="detailed-title">Món ăn</p>
-                            <p class="detailed-content">{{selectedRes.style}}</p>
+                            <p class="detailed-content">{{selectedRes.category[selectedRes.category.length - 1]}}</p>
                         </div>
                         <div class="detailed-row">
                             <p class="detailed-title">Thực đơn</p>
@@ -142,7 +142,7 @@
                     <div class="detailed-column">
                         <div class="detailed-row">
                             <p class="detailed-title">Địa chỉ</p>
-                            <ul class="detailed-content">
+                            <ul class="detailed-content ul_address">
                                 <li ng-repeat="address in  selectedRes.address">{{address}}</li>
                             </ul>
                         </div>

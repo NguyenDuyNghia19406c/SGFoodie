@@ -30,139 +30,134 @@
                 });
         })
     </script>
+    <script>
+        window.onload = function() {
+            document.getElementByID("autoplay").play();
+        }
+    </script>
 
 </head>
 
-<body ng-app="angularApp" ng-controller="RestaurantController">
-    <script>
-      var chatbox = document.getElementById('fb-customer-chat');
-      chatbox.setAttribute("page_id", "103931358806728");
-      chatbox.setAttribute("attribution", "biz_inbox");
-    </script>
-    
-    <audio id="autoplay" autoplay preload="auto" loop>
-        <source  src="./data/background-song.mp3" type="audio/mp3">
-    </audio>
-    <div w3-include-html="header.html"></div>
-    <div class="carousel-container">
-        <a class="slick-arrow slick-prev">
-            <i class="fas fa-angle-left"></i>
+<body ng-app="angularApp" ng-controller="RestaurantController" onload>
+    <div w3-include-html="header.html "></div>
+    <audio id="autoplay" autoplay loop preload=>
+        <source src="./data/background-music.mp3 " type="audio/mpeg">
+      </audio>
+    <div class="carousel-container ">
+        <a class="slick-arrow slick-prev ">
+            <i class="fas fa-angle-left "></i>
         </a>
-        <div class="slick-list">
-            <div class="slick-track">
-                <div id="lastClone" class="slick-slide slick-cloned" data-index="1" tabindex="-1" aria-hidden="true" style="width: 1442px;">
+        <div class="slick-list ">
+            <div class="slick-track ">
+                <div id="lastClone " class="slick-slide slick-cloned " data-index="1 " tabindex="-1 " aria-hidden="true " style="width: 1442px; ">
                     <div>
-                        <a href="" aria-label="" tabindex="-1" style="width: 100%; display: inline-block">
-                            <img class="image" src="./Images/home-banner.jpg" alt="">
+                        <a href=" " aria-label=" " tabindex="-1 " style="width: 100%; display: inline-block ">
+                            <img class="image " src="./images/Carousel/carousel_1.png " alt="Unable to load image ">
                         </a>
                     </div>
                 </div>
 
-                <div class="slick-slide slick-cloned" data-index="1" tabindex="-1" aria-hidden="true" style="width: 1442px;">
+                <div class="slick-slide slick-cloned " data-index="1 " tabindex="-1 " aria-hidden="true " style="width: 1442px; ">
                     <div>
-                        <a href="" aria-label="" tabindex="-1" style="width: 100%; display: inline-block">
-                            <img class="image" src="./Images/home-banner.jpg" alt="">
+                        <a href=" " aria-label=" " tabindex="-1 " style="width: 100%; display: inline-block ">
+                            <img class="image " src="./images/Carousel/carousel_1.png " alt="Unable to load image ">
                         </a>
                     </div>
                 </div>
-                <div class="slick-slide slick-cloned" data-index="1" tabindex="-1" aria-hidden="true" style="width: 1442px;">
+                <div class="slick-slide slick-cloned " data-index="1 " tabindex="-1 " aria-hidden="true " style="width: 1442px; ">
                     <div>
-                        <a href="" aria-label="" tabindex="-1" style="width: 100%; display: inline-block">
-                            <img class="image" src="https://znews-photo.zadn.vn/w660/Uploaded/neg_wpeczyr/2019_11_19/Tuan_Anh_vs_Thai_Lan_5_zing1_11.jpg" alt="">
+                        <a href=" " aria-label=" " tabindex="-1 " style="width: 100%; display: inline-block ">
+                            <img class="image " src="./images/Carousel/carousel_2.png " alt="Unable to load image ">
                         </a>
                     </div>
                 </div>
-                <div class="slick-slide slick-cloned" data-index="1" tabindex="-1" aria-hidden="true" style="width: 1442px;">
+                <div class="slick-slide slick-cloned " data-index="1 " tabindex="-1 " aria-hidden="true " style="width: 1442px; ">
                     <div>
-                        <a href="" aria-label="" tabindex="-1" style="width: 100%; display: inline-block">
-                            <img class="image" src="https://vnn-imgs-f.vgcloud.vn/2019/12/10/21/u22-vietnam-2.jpg" alt="">
+                        <a href=" " aria-label=" " tabindex="-1 " style="width: 100%; display: inline-block ">
+                            <img class="image " src="./images/Carousel/carousel_3.png " alt="Unable to load image ">
                         </a>
                     </div>
                 </div>
-                <div class="slick-slide slick-cloned" data-index="1" tabindex="-1" aria-hidden="true" style="width: 1442px;">
+                <div class="slick-slide slick-cloned " data-index="1 " tabindex="-1 " aria-hidden="true " style="width: 1442px; ">
                     <div>
-                        <a href="" aria-label="" tabindex="-1" style="width: 100%; display: inline-block">
-                            <img class="image" src="https://image.thanhnien.vn/660/uploaded/quangtuyen/2019_10_10/yen1_vzrw.jpg" alt="">
+                        <a href=" " aria-label=" " tabindex="-1 " style="width: 100%; display: inline-block ">
+                            <img class="image " src="./images/Carousel/carousel_4.png " alt="Unable to load image ">
                         </a>
                     </div>
                 </div>
-                <div class="slick-slide slick-cloned" data-index="1" tabindex="-1" aria-hidden="true" style="width: 1442px;">
+                <div class="slick-slide slick-cloned " data-index="1 " tabindex="-1 " aria-hidden="true " style="width: 1442px; ">
                     <div>
-                        <a href="" aria-label="" tabindex="-1" style="width: 100%; display: inline-block">
-                            <img class="image" src="https://www.ruaanhgiare.vn/wp-content/uploads/2018/01/decal-viet-nam-vo-dich.png" alt="">
+                        <a href=" " aria-label=" " tabindex="-1 " style="width: 100%; display: inline-block ">
+                            <img class="image " src="./images/Carousel/carousel_5.png " alt="Unable to load image ">
                         </a>
                     </div>
                 </div>
 
-                <div id="firstClone" class="slick-slide slick-cloned" data-index="1" tabindex="-1" aria-hidden="true" style="width: 1442px;">
+                <div id="firstClone " class="slick-slide slick-cloned " data-index="1 " tabindex="-1 " aria-hidden="true " style="width: 1442px; ">
                     <div>
-                        <a href="" aria-label="" tabindex="-1" style="width: 100%; display: inline-block">
-                            <img class="image" src="./Images/home-banner.jpg" alt="">
+                        <a href=" " aria-label=" " tabindex="-1 " style="width: 100%; display: inline-block ">
+                            <img class="image " src="./images/Carousel/carousel_1.png " alt="Unable to load image ">
                         </a>
                     </div>
                 </div>
             </div>
         </div>
-        <a class="slick-arrow slick-next">
-            <i class="fas fa-angle-right"></i>
+        <a class="slick-arrow slick-next ">
+            <i class="fas fa-angle-right "></i>
         </a>
-        <ul class="slick-dots">
-            <li class="slick-active">
+        <ul class="slick-dots ">
+            <li class="slick-active ">
                 <button>1</button>
             </li>
-            <li class="">
+            <li class=" ">
                 <button>2</button>
             </li>
-            <li class="">
+            <li class=" ">
                 <button>3</button>
             </li>
-            <li class="">
+            <li class=" ">
                 <button>4</button>
             </li>
-            <li class="">
+            <li class=" ">
                 <button>5</button>
             </li>
         </ul>
     </div>
-    <script src="./js/carousel.js"></script>
-    <div w3-include-html="search-bar.html"></div>
-    <div class="section">
-        <div class="section__container reveal" ng-repeat="cat in categories">
-            <div class="section__container-header">
+    <script src="./js/carousel.js "></script>
+    <div w3-include-html="search-bar.html "></div>
+    <div class="section ">
+        <div class="section__container reveal " ng-repeat="cat in categories ">
+            <div class="section__container-header ">
                 <h2>{{cat | uppercase}}</h2>
                 <div></div>
                 <span>
-                        <a href="categoricalRestaurants.html?category={{cat}}" target="_blank">Xem tất cả</a>
-                        <i class="material-icons">chevron_right</i>
+                        <a href="categoricalRestaurants.html?category={{cat}} " target="_blank ">Xem tất cả</a>
+                        <i class="material-icons ">chevron_right</i>
                     </span>
             </div>
-            <div class="section__container-row">
-                <div class="row__item" ng-repeat="res in restaurants | filter:{category: cat} | limitTo:4">
-                    <div class="row__item-image">
-                        <img src="{{res.image[0]}}" alt="Unable to load image" title="{{res.name}}">
+            <div class="section__container-row ">
+                <div class="row__item " ng-repeat="res in restaurants | filter:{category: cat} | limitTo:4 ">
+                    <div class="row__item-image ">
+                        <img src="{{res.image[0]}} " alt="Unable to load image " title="{{res.name}} ">
                     </div>
-                    <div class="row__item-content">
+                    <div class="row__item-content ">
                         <h3>
-                            <a href="restaurantPage.html?restaurantId={{res.id}}" target="_blank">{{res.name}}</a>
+                            <a href="restaurantPage.html?restaurantId={{res.id}} " target="_blank ">{{res.name}}</a>
                         </h3>
                         <p>{{res.short_description}}</p>
-                        <p ng-if="cat == 'Ưu đãi'" class="row__item--color">{{res.discount}}</p>
+                        <p ng-if="cat=='Ưu đãi' " class="row__item--color ">{{res.discount}}</p>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <a href="#" class="back-to-top">
-        <i class="material-icons">keyboard_arrow_up</i>
+    <a href="# " class="back-to-top ">
+        <i class="material-icons ">keyboard_arrow_up</i>
     </a>
-    <div w3-include-html="footer.html"></div>
+    <div w3-include-html="footer.html "></div>
     <script>
         w3.includeHTML()
     </script>
-
-    </div>
-
-    
 </body>
 
 </html>
